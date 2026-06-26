@@ -1,14 +1,3161 @@
 {
   "schema_version": 1,
   "last_run_at": null,
-  "generated_at": "2026-06-26T05:16:42.445Z",
+  "generated_at": "2026-06-26T14:06:44.484Z",
   "totals": {
-    "jams": 0,
-    "upcoming": 0,
-    "active": 0,
-    "sources": 0
+    "jams": 160,
+    "upcoming": 109,
+    "active": 50,
+    "sources": 2
   },
-  "jams": [],
+  "jams": [
+    {
+      "title": "Synthesis Game Jam 2026",
+      "source": "itch.io targeted search",
+      "url": "https://itch.io/jam/synthesis-game-jam-2026",
+      "starts_at": "2026-06-01T06:00:00+08:00",
+      "ends_at": "2026-08-17T05:59:59+08:00",
+      "submission_deadline": "2026-08-17T05:59:59+08:00",
+      "status": "in_progress",
+      "tags": [
+        "targeted-search",
+        "private-jam"
+      ],
+      "participants": 10,
+      "host": "NeldanSynth, Daniel-Riverwood, Revenge13, Dalya123",
+      "discovered_at": "2026-06-26T22:18:00+08:00",
+      "last_seen_at": "2026-06-26T22:18:00+08:00",
+      "observed_from": [
+        "targeted search: upcoming game jam 2026"
+      ],
+      "confidence": "medium",
+      "notes": "Public itch.io page says submissions are open through 2026-08-16 21:59:59 UTC, while body text also mentions an August 12 submission deadline and private registration."
+    },
+    {
+      "title": "Cozy Паштетный гейм джем #4",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/cozy-pahtetniy-geim-jam-4",
+      "starts_at": "2026-06-26T23:00:00+08:00",
+      "ends_at": "2026-06-29T23:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 29,
+      "host": "Ashy#dev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "CrazyGames x Construct Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/crazygames-x-construct-game-jam-2026",
+      "starts_at": "2026-06-26T23:00:00+08:00",
+      "ends_at": "2026-06-30T23:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 58,
+      "host": "GameJamPlus",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Weekly Note Composing Jam #47",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/weekly-note-composing-jam-47",
+      "starts_at": "2026-06-26T23:00:00+08:00",
+      "ends_at": "2026-07-03T23:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 21,
+      "host": "emscottish",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "SevillaJam 6",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/sevillajam-6",
+      "starts_at": "2026-06-27T00:00:00+08:00",
+      "ends_at": "2026-06-28T00:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 8,
+      "host": "SevillaJam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Game JAMnina",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/game-jamnina",
+      "starts_at": "2026-06-27T02:00:00+08:00",
+      "ends_at": "2026-06-29T02:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": null,
+      "host": "Gus-Kruz",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "MSPA Jam #1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/mspa-jam-1",
+      "starts_at": "2026-06-27T02:00:00+08:00",
+      "ends_at": "2026-06-29T02:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 110,
+      "host": "MS Paint Adventures , Fruzmig",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "AI World Cup Game Jam (Over $500 in prizes)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/ai-world-cup-game-jam",
+      "starts_at": "2026-06-27T03:00:00+08:00",
+      "ends_at": "2026-06-29T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 15,
+      "host": "ResenhaDoBar",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Aristos Interactive Jam #5",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/aristos-interactive-jam-5",
+      "starts_at": "2026-06-27T05:00:00+08:00",
+      "ends_at": "2026-06-30T05:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 6,
+      "host": "Aristos Interactive",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Little Guy Game Jam #7",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/little-guy-game-jam-7",
+      "starts_at": "2026-06-27T06:00:00+08:00",
+      "ends_at": "2026-07-04T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 22,
+      "host": "G2 G2 , jozefeenie!",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Exceptional Minds Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/exceptional-minds-game-jam",
+      "starts_at": "2026-06-27T09:00:00+08:00",
+      "ends_at": "2026-06-29T09:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 29,
+      "host": "Stevie Larsen , Exceptional Minds",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Micro Jam 060: Retro² ($400+ Prizes)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/micro-jam-060",
+      "starts_at": "2026-06-27T09:00:00+08:00",
+      "ends_at": "2026-06-29T09:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 109,
+      "host": "tommy",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Witches Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/witches-game-jam-2026",
+      "starts_at": "2026-06-27T09:00:00+08:00",
+      "ends_at": "2026-06-28T09:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 2,
+      "host": "珊珊",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "2026 NYCU GDC Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/nycu-gdc-game-jam-2nd",
+      "starts_at": "2026-06-27T10:00:00+08:00",
+      "ends_at": "2026-06-28T10:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 2,
+      "host": "NYCU GDC",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "The Very Serious Juniper Dev Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/theveryseriousjuniperdevgamejam",
+      "starts_at": "2026-06-27T13:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 14300,
+      "host": "Juniper Dev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "Forever Jamming #1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/forever-jamming-1",
+      "starts_at": "2026-06-27T16:00:00+08:00",
+      "ends_at": "2026-07-04T16:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 20,
+      "host": "Forever Jamming",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Pixel Forge JAM #2 | Haunted Edition [ $5000+ in prizes ]",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/pixel-forge-jam-2",
+      "starts_at": "2026-06-27T17:30:00+08:00",
+      "ends_at": "2026-07-04T17:30:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 459,
+      "host": "PIXEL FORGE",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "🏳️‍🌈 Devs That Jam 36-hour Challenge #27: Pride Edition",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/dtj36-27",
+      "starts_at": "2026-06-27T18:00:00+08:00",
+      "ends_at": "2026-06-28T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 31,
+      "host": "Devs That Jam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "DISCODEVS Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/discodevs-game-jam-2026",
+      "starts_at": "2026-06-27T22:00:00+08:00",
+      "ends_at": "2026-07-18T22:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 7,
+      "host": "DISCODEVS",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Glupers Jam 1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/glupers1",
+      "starts_at": "2026-06-27T23:00:00+08:00",
+      "ends_at": "2026-06-28T23:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 8,
+      "host": "Denatle",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "unofficial GAMEMAKER jam (PRIZES)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/unofficial-gamemaker-jam",
+      "starts_at": "2026-06-28T03:24:20+08:00",
+      "ends_at": "2026-07-04T03:24:20+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 1,
+      "host": "zacmadeagame",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Jame Gam #59",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/jame-gam-59",
+      "starts_at": "2026-06-29T02:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 176,
+      "host": "AmiableVegetable , tiimo , AcidBurritos",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "$20 Unremarkable Game Jam 2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/2-unremarkable-game-jam",
+      "starts_at": "2026-06-29T04:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 133,
+      "host": "Unremarkable1",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Mini Jame Gam #56",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/mini-jame-gam-56",
+      "starts_at": "2026-06-29T05:30:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 268,
+      "host": "tiimo , Jame Gam , AcidBurritos , AmiableVegetable",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Thinky Puzzle Game Jam 6",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/thinky-puzzle-game-jam-6",
+      "starts_at": "2026-06-29T06:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 195,
+      "host": "Dom Camus",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "KILL YOUR DARLINGS Mini Jam No. 1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/killyourdarlingsno1",
+      "starts_at": "2026-06-29T12:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 112,
+      "host": "earacorn",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "GAMESEED 2026 | Mobile",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gameseed-2026-mobile",
+      "starts_at": "2026-06-29T14:00:00+08:00",
+      "ends_at": "2026-07-04T14:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 32,
+      "host": "GAMESEED",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "GAMESEED 2026 | PC",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gameseed-2026-pc",
+      "starts_at": "2026-06-29T14:00:00+08:00",
+      "ends_at": "2026-07-03T14:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 161,
+      "host": "GAMESEED",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "LA JAM SIN GENTE JAM 2K26",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/ljsgj",
+      "starts_at": "2026-06-29T15:00:00+08:00",
+      "ends_at": "2026-07-31T15:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 1,
+      "host": "Creador Sombrio",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "UnYIELDING 1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/unyielding-1",
+      "starts_at": "2026-06-29T16:00:00+08:00",
+      "ends_at": "2026-07-01T16:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 10,
+      "host": "UnPAUSE",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Platformer Jam #2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/platformer-jam-2",
+      "starts_at": "2026-06-29T18:21:30+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 424,
+      "host": "ElectricRam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "🗿Fake Update Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/fake-update-jam",
+      "starts_at": "2026-06-29T19:00:00+08:00",
+      "ends_at": "2026-07-02T19:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 7,
+      "host": "SomeTimesAtNight",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "The 52 Card Pickup Jam #1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/the-52-card-pickup-jam-1",
+      "starts_at": "2026-06-29T19:00:00+08:00",
+      "ends_at": "2026-07-05T19:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 17,
+      "host": "elwdev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Mixed Media Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/mixed-media-jam",
+      "starts_at": "2026-06-29T20:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 166,
+      "host": "Ikoms",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "One Game A Week Jam #8",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/8gameaweek",
+      "starts_at": "2026-06-30T00:00:00+08:00",
+      "ends_at": "2026-07-07T00:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 9,
+      "host": "ForgeWalker Studios , jazhikho",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "1-BIT JAM 12",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/1-bit-jam-12",
+      "starts_at": "2026-06-30T01:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 148,
+      "host": "MYline media 👤",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Beginner's Jam Summer_2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/beginners-jam-smmr-2026",
+      "starts_at": "2026-06-30T09:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 115,
+      "host": "taymosh",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Yaoi Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/yaoi-game-jam-2026",
+      "starts_at": "2026-06-30T22:00:01+08:00",
+      "ends_at": "2026-08-30T22:00:01+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 282,
+      "host": "WitPOP",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "pali musi 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/tu",
+      "starts_at": "2026-07-01T05:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 88,
+      "host": "Netal , Thel",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Birbday Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/birbday-jam-2026",
+      "starts_at": "2026-07-01T06:00:00+08:00",
+      "ends_at": "2026-10-31T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 15,
+      "host": "Dorian Blackwood",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "58mm RPG Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/58mmrpgjam",
+      "starts_at": "2026-07-01T07:00:00+08:00",
+      "ends_at": "2026-07-31T07:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 18,
+      "host": "W.H. Arthur , Jellyfishlines , Kergan",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Megamitts' Mega Jam 16: Pixels! Pixels! Pixels!",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/megamitts-mega-jam-16",
+      "starts_at": "2026-07-01T07:00:00+08:00",
+      "ends_at": "2026-07-15T07:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 10,
+      "host": "megamitts",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Appx. N Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/appx-n-jam-2026",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-08-01T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 441,
+      "host": "Dank Dungeons",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Game-like Jam 10",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gamelike-jam-010",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-08-01T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 106,
+      "host": "HyperGameDev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Just Grind - Summer '26",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/just-grind-2026",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-08-31T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 10,
+      "host": "pinuwuk",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Moths & Shadows Halloween Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/moths-and-shadows",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-09-20T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 66,
+      "host": "Blushinmoon",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "RPGM 15 Concept Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/rpgm-15-concept-jam",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-07-15T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 5,
+      "host": "CGBilz",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "The People's Radio - #1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/the-peoples-radio-1",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-07-31T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 13,
+      "host": "DOOMVEGA",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Plushie Yuri Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/plushie-yuri-jam",
+      "starts_at": "2026-07-01T13:00:00+08:00",
+      "ends_at": "2026-09-02T13:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 36,
+      "host": "treegravy",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "SOUPJAM2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/soupjam2026",
+      "starts_at": "2026-07-01T13:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 260,
+      "host": "Kite Line , Figglewatts , KIRA",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "DIS July 2026 Mutual Feedback Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/dis-july-2026-mutual-feedback-jam",
+      "starts_at": "2026-07-01T14:00:00+08:00",
+      "ends_at": "2026-07-31T14:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 3,
+      "host": "Dragon's Isle Software , A Wandering Songbird , DIS Kids",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Making Games Accessible",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/making-games-accessible",
+      "starts_at": "2026-07-01T14:00:00+08:00",
+      "ends_at": "2026-08-01T14:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 35,
+      "host": "Ericbomb , shiftBacktick , Patricia",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Romance Kingdom Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/romance-kingdom-jam",
+      "starts_at": "2026-07-01T14:00:24+08:00",
+      "ends_at": "2026-07-28T14:00:24+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 11,
+      "host": "TheCrimsonNight",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "But They Fuck Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/but-they-fuck-jam",
+      "starts_at": "2026-07-01T14:59:09+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 114,
+      "host": "Z Gosck",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Neo-Twiny Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/neo-twiny-jam-26",
+      "starts_at": "2026-07-01T14:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 170,
+      "host": "manonamora , Autumn Chen , Lapin Lunaire Games",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Decker Fantasy Camp 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/decker-fantasy-camp-2026",
+      "starts_at": "2026-07-01T15:00:00+08:00",
+      "ends_at": "2026-08-01T15:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 40,
+      "host": "Internet Janitor",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Disabled Designers Game Jam (TTRPG)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/disabled-ttrpg-designers-game-jam",
+      "starts_at": "2026-07-01T15:00:00+08:00",
+      "ends_at": "2026-08-31T15:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 14,
+      "host": "dungeonminister",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Week Sauce (July 2026)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/weeksauce-55",
+      "starts_at": "2026-07-01T15:00:00+08:00",
+      "ends_at": "2026-08-01T15:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 4,
+      "host": "Mystery Coconut",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "New Edition TTRPG Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/new-edition-ttrpg-jam",
+      "starts_at": "2026-07-01T16:00:00+08:00",
+      "ends_at": "2026-08-31T16:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 26,
+      "host": "InnocentGoblin",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Colorful Love JAM 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/colorful-love-jam",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": "2026-11-02T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 36,
+      "host": "Dreamty Games",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Josei Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/josei-jam-2026",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 293,
+      "host": "Akua , Crystal Game Works , baguetti ✦",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Lost Civilization Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/lost-civilization-jam",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": "2026-09-30T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 21,
+      "host": "Sylvie the Dragon Games",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Otome Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/otome-jam-2026",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 442,
+      "host": "Akua , Crystal Game Works , baguetti ✦",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "⛓️‍💥Definition of Insanity Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/definition-of-insanity-jam",
+      "starts_at": "2026-07-01T19:00:00+08:00",
+      "ends_at": "2026-07-31T19:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 8,
+      "host": "SomeTimesAtNight",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Caves of Qud Modding Jam: Burgeoning",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/caves-of-qud-modding-jam-5",
+      "starts_at": "2026-07-01T20:00:00+08:00",
+      "ends_at": "2026-07-08T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 14,
+      "host": "librarianmage , soupDilemma",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Choose a Song Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/choose-a-song-jam-2026",
+      "starts_at": "2026-07-01T20:00:00+08:00",
+      "ends_at": "2026-08-31T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 46,
+      "host": "Magikya Studios",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Stop-Mo Club",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/stop-mo-club",
+      "starts_at": "2026-07-01T20:00:00+08:00",
+      "ends_at": "2026-07-30T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 13,
+      "host": "ErinBrume",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "SuNoFes 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/sunofes26",
+      "starts_at": "2026-07-01T20:00:00+08:00",
+      "ends_at": "2026-09-02T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 57,
+      "host": "Alte",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Climate Jam 2026: Plant a seed!",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/climate-jam-2026",
+      "starts_at": "2026-07-02T01:00:00+08:00",
+      "ends_at": "2026-08-11T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 215,
+      "host": "IndieCade",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "HeroQuest Quest Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/heroquest-quest-jam-2026",
+      "starts_at": "2026-07-02T01:00:00+08:00",
+      "ends_at": "2026-08-01T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 22,
+      "host": "AmalgamAsh , squidgemonster , GeekGoneGrawshak , MULE , myDadisDracula",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "2D/3D Collectathon JAM (With Prize!)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/2d3d-collectathon-jam-prize",
+      "starts_at": "2026-07-02T01:27:05+08:00",
+      "ends_at": "2026-08-01T01:27:05+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 14,
+      "host": "Alan Robinson, Developer",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "The Brainless Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/brainless-game-jam",
+      "starts_at": "2026-07-02T02:00:00+08:00",
+      "ends_at": "2026-07-16T02:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 794,
+      "host": "Brainless.",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Redot Summer Jam - Iron Vein",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/redot-summer-jam-iron-vein",
+      "starts_at": "2026-07-02T03:00:00+08:00",
+      "ends_at": "2026-08-01T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 19,
+      "host": "Redot Engine",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "The FNAF Fangame Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/thefnaffangamejam2026",
+      "starts_at": "2026-07-02T03:00:00+08:00",
+      "ends_at": "2026-10-02T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 72,
+      "host": "Sonic the Hedgehog",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "MechJam VII",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/mechjam7",
+      "starts_at": "2026-07-02T15:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 339,
+      "host": "dungeon",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "University of Waterloo Spring 2026 Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/university-of-waterloo-spring-2026-game-jam",
+      "starts_at": "2026-07-03T05:00:00+08:00",
+      "ends_at": "2026-07-06T05:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 62,
+      "host": "UW Game Dev Club",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "2026 OST Album Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/2026-ost-album-jam",
+      "starts_at": "2026-07-03T07:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 170,
+      "host": "Grunt.",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Holmesglen Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/holmesglen-game-jam-2026",
+      "starts_at": "2026-07-03T09:00:00+08:00",
+      "ends_at": "2026-07-06T09:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 25,
+      "host": "Holmesglen Game Development , rvanheeswyk",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Mini Jam 214: Machines",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/mini-jam-214-machines",
+      "starts_at": "2026-07-03T12:00:00+08:00",
+      "ends_at": "2026-07-06T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 40,
+      "host": "ZahranW",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Level 1 Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/level-1-game-jam-2026",
+      "starts_at": "2026-07-03T20:00:00+08:00",
+      "ends_at": "2026-07-05T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 11,
+      "host": "Level 1 Game Jam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Ultimate AI-Powered Game Jam #1",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/ultimate-ai-powered-game-jam-1",
+      "starts_at": "2026-07-03T20:00:00+08:00",
+      "ends_at": "2026-07-06T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 18,
+      "host": "michyo",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Usagi Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/usagi-jam-2026",
+      "starts_at": "2026-07-03T20:00:00+08:00",
+      "ends_at": "2026-07-13T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 122,
+      "host": "Brett Chalupa",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "RPG Maker Horror Game Jam #16: Haunted Penthouse",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/rpg-maker-horror-game-jam-16",
+      "starts_at": "2026-07-04T01:59:00+08:00",
+      "ends_at": "2026-09-14T01:59:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 50,
+      "host": "Beregon , BroodyGaming , Daybloom Project",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "RPG Maker Themed Game Jam #16: Hero Academy",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/rpg-maker-themed-game-jam-16",
+      "starts_at": "2026-07-04T01:59:00+08:00",
+      "ends_at": "2026-09-14T01:59:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 65,
+      "host": "Beregon , BroodyGaming",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Catjam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/catjam-2026",
+      "starts_at": "2026-07-04T12:00:00+08:00",
+      "ends_at": "2026-09-08T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 33,
+      "host": "andsfw",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "1100 Words TTRPG Kitchen 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/1100-words-ttrpg-kitchen-2026",
+      "starts_at": "2026-07-04T18:00:00+08:00",
+      "ends_at": "2026-07-19T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 51,
+      "host": "Kinayla",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "CYBRPUNK JAM 015 | Prizes",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/cybrpunk-jam-015",
+      "starts_at": "2026-07-04T22:00:00+08:00",
+      "ends_at": "2026-07-18T22:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 32,
+      "host": "Portland Horton",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Summer Incremental Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/summer-incremental-game-jam-2026",
+      "starts_at": "2026-07-05T01:00:00+08:00",
+      "ends_at": "2026-07-19T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 32,
+      "host": "FBDW , asterisk_man , CardboardEmpress",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Impressions Season 4: Worldbuilding",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/impressions-worldbuilding-jam-1",
+      "starts_at": "2026-07-06T06:00:00+08:00",
+      "ends_at": "2026-08-10T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 45,
+      "host": "KaleOverlord",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Toasty Jam 2 - RPG Maker Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/toasty-jam-2-rpg-maker-game-jam",
+      "starts_at": "2026-07-07T00:00:00+08:00",
+      "ends_at": "2026-07-13T00:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 137,
+      "host": "Toasty",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "raylib 6.x gamejam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/raylib-6x-gamejam",
+      "starts_at": "2026-07-07T02:00:00+08:00",
+      "ends_at": "2026-07-13T02:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 179,
+      "host": "Ray",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Made To Be Played",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/made-to-be-played",
+      "starts_at": "2026-07-07T07:00:01+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 159,
+      "host": "MintMood",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Game Demo Jam I ($100+ in Prizes)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/game-demo-jam-i",
+      "starts_at": "2026-07-07T20:52:00+08:00",
+      "ends_at": "2026-07-17T20:52:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 77,
+      "host": "The Woodlanders",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Synty's 12th Birthday Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/syntys-12th-birthday-game-jam",
+      "starts_at": "2026-07-08T09:00:00+08:00",
+      "ends_at": "2026-07-14T09:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 246,
+      "host": "Synty",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Ukrainian Visual Novel Jam #7",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/ukrainian-visual-novel-jam-7",
+      "starts_at": "2026-07-10T20:00:00+08:00",
+      "ends_at": "2026-07-26T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 58,
+      "host": "TERNOX",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "PSX Horror Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/psx-horror-jam",
+      "starts_at": "2026-07-11T02:23:12+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 138,
+      "host": "Pablo Alegria",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Furry Game Jam #2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/furries",
+      "starts_at": "2026-07-11T03:00:00+08:00",
+      "ends_at": "2026-07-21T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 177,
+      "host": "SUDO",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Solo dev Jam #12",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/solo-dev-jam-12",
+      "starts_at": "2026-07-11T03:00:00+08:00",
+      "ends_at": "2026-07-14T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 133,
+      "host": "Solo Development , Practical NPC , drahmen , symbol24",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Godot Wild Jam #95",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/godot-wild-jam-95",
+      "starts_at": "2026-07-11T04:00:00+08:00",
+      "ends_at": "2026-07-20T04:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 94,
+      "host": "Godot Wild Jam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "'So Bad it's Good' Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/sbigjam2026",
+      "starts_at": "2026-07-11T07:00:00+08:00",
+      "ends_at": "2026-07-19T07:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 70,
+      "host": "Ned Reid",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "O2A2 2026 - Only One of Any Asset Visual Novel Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/o2a2-2026",
+      "starts_at": "2026-07-11T12:00:00+08:00",
+      "ends_at": "2026-07-20T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 172,
+      "host": "Stella @ MakeVisualNovels",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Castle Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/castle-game-jam-2026",
+      "starts_at": "2026-07-11T21:00:00+08:00",
+      "ends_at": "2026-07-17T21:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 32,
+      "host": "Spelkollektivet",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Trans/Queer Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/transqueer-jam",
+      "starts_at": "2026-07-13T15:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 244,
+      "host": "DarkChibiShadow , HemiDemi , Platinum Soul Press",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "TOXIC YURI VN JAM 2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
+      "starts_at": "2026-07-14T06:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 2047,
+      "host": "nadia nova , deaddeaddeath , KillJill , thursdayrain , Kyou System",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": true
+    },
+    {
+      "title": "Farm Jam 2026 - Summer Madness",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/farm-jam-2026-summer-madness",
+      "starts_at": "2026-07-15T11:00:00+08:00",
+      "ends_at": "2026-08-15T11:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 47,
+      "host": "Figerox Studios",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Pirate Software - Game Jam 19",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/pirate",
+      "starts_at": "2026-07-15T21:00:00+08:00",
+      "ends_at": "2026-07-31T21:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 115,
+      "host": "Pirate Software",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Kenney Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/kenney-jam-2026",
+      "starts_at": "2026-07-17T23:00:00+08:00",
+      "ends_at": "2026-07-19T23:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 1182,
+      "host": "Kenney , Kay Lousberg",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "MelonJam 7🍈",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/melonjam7",
+      "starts_at": "2026-07-18T00:00:00+08:00",
+      "ends_at": "2026-07-21T00:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 44,
+      "host": "Cupertino Game Dev Club",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Stop Killing Games Community Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/skg-jam-2026",
+      "starts_at": "2026-07-18T02:00:00+08:00",
+      "ends_at": "2026-07-25T02:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 126,
+      "host": "Stop Killing Games Community , DVH , PotatoGameDev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Gwueble Jam - 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gwueble-jam-2026",
+      "starts_at": "2026-07-20T03:00:00+08:00",
+      "ends_at": "2026-07-27T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 271,
+      "host": "Queble , Gwizz1027",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Themed Horror Game Jam #24",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/themed-horror-game-jam-24",
+      "starts_at": "2026-07-20T15:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 183,
+      "host": "Beregon , raeleus , BroodyGaming",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "GMTK Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gmtk-jam-2026",
+      "starts_at": "2026-07-23T01:00:00+08:00",
+      "ends_at": "2026-07-27T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 20000,
+      "host": "Game Maker's Toolkit",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "TasJam 2026: Winter Edition",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/tasjam2026-winter",
+      "starts_at": "2026-07-24T16:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 17,
+      "host": "Tas Game Makers",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Geek n Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/geek-n-jam",
+      "starts_at": "2026-07-26T02:29:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 103,
+      "host": "PerseusKyogre09 , Geekroom SRMIST , Googoochadwick , Shrealix",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Liminal Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/liminal4",
+      "starts_at": "2026-07-26T20:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 207,
+      "host": "MCL Software",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Underwater jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/underwater-jam",
+      "starts_at": "2026-07-31T05:59:00+08:00",
+      "ends_at": "2026-10-06T05:59:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 124,
+      "host": "Awiola",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "$200+ Back in the Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/back-in-the-game-jam",
+      "starts_at": "2026-07-31T07:00:00+08:00",
+      "ends_at": "2026-08-17T07:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 48,
+      "host": "tokentakenuser , Jattenalle , minipaperplanes",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "B1T Jam 🌙 5",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/b1t-jam-5",
+      "starts_at": "2026-08-01T06:00:00+08:00",
+      "ends_at": "2026-08-11T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 141,
+      "host": "Macrow",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "SNES DEV Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/snes-dev-game-jam-2026",
+      "starts_at": "2026-08-01T06:00:00+08:00",
+      "ends_at": "2026-11-01T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 72,
+      "host": "SNES-Testberichte , Kannagichan , Svambo",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Adventure Gamebook Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/adventure-gamebook-jam",
+      "starts_at": "2026-08-01T06:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 394,
+      "host": "Sophie Houlden",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Queer Communist Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/queercomgames2026",
+      "starts_at": "2026-08-02T05:24:43+08:00",
+      "ends_at": "2026-09-01T05:24:43+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 67,
+      "host": "MizuMiaw",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "#RPGenesis 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/rpgenesis2026",
+      "starts_at": "2026-08-02T07:00:00+08:00",
+      "ends_at": "2026-08-09T07:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 95,
+      "host": "dreamup , Lady Entropy",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Cute Girls Doing Cool Things VN Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/cgdct-jam-2026",
+      "starts_at": "2026-08-03T12:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 284,
+      "host": "aine , CuteShadow , Stella @ MakeVisualNovels",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Game Zanga 14 زنقة الالعاب",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gamezanga14",
+      "starts_at": "2026-08-14T01:00:00+08:00",
+      "ends_at": "2026-08-17T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 84,
+      "host": "Danar Dev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Summertime Game Jam!",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/summertime-game-jam",
+      "starts_at": "2026-08-15T13:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 158,
+      "host": "Froggit_Studios",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "🕹️ ARD GAME JAM 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/-ard-game-jam-2026",
+      "starts_at": "2026-08-22T01:00:00+08:00",
+      "ends_at": "2026-08-24T01:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 65,
+      "host": "ARD Game Jam",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Brackeys Game Jam 2026.2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/brackeys-16",
+      "starts_at": "2026-08-23T18:00:00+08:00",
+      "ends_at": "2026-08-30T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 6155,
+      "host": "Brackeys , AquaXV , Yasahiro , Duxez",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "Meaningful Games Jam 2026",
+      "source": "itch.io targeted search",
+      "url": "https://itch.io/jam/meaningful-games-jam-2026",
+      "starts_at": "2026-08-23T19:00:00+08:00",
+      "ends_at": "2026-08-31T01:00:00+08:00",
+      "submission_deadline": "2026-08-31T01:00:00+08:00",
+      "status": "upcoming",
+      "tags": [
+        "targeted-search",
+        "beginner-friendly"
+      ],
+      "participants": 5,
+      "host": "Anthony L. Wolf",
+      "discovered_at": "2026-06-26T22:18:00+08:00",
+      "last_seen_at": "2026-06-26T22:18:00+08:00",
+      "observed_from": [
+        "targeted search: site:itch.io/jam game jam 2026 starts"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "Trans Representation Jam 26",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/trans-representation-jam-26",
+      "starts_at": "2026-08-31T06:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 113,
+      "host": "Hatoge , cdrch , sleepyboydev",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "🔥 Feedback Quest 9: indiegames X indie streamers",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/feedback-quest-9-indiegames-x-indie-streamers",
+      "starts_at": "2026-08-31T07:01:02+08:00",
+      "ends_at": "2026-09-06T07:01:02+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 71,
+      "host": "indiequesting , hythrain , Altabestudio , JanJMueller",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Filipino Horror Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/filipino-horror-game-jam-2026",
+      "starts_at": "2026-09-01T00:00:00+08:00",
+      "ends_at": "2026-09-30T00:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 63,
+      "host": "Murushii , BluWraith , Neuroticfly Games , SolitaryStudios",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "🏳️‍⚧️ T4T JAM 🏳️‍⚧️",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/t4t-jam",
+      "starts_at": "2026-09-01T11:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 141,
+      "host": "canislatransed",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "The Queer Wrongs Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/the-queer-wrongs-jam-2026",
+      "starts_at": "2026-09-01T11:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 352,
+      "host": "caede styles",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Torture Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/torture-jam",
+      "starts_at": "2026-09-01T12:00:01+08:00",
+      "ends_at": "2026-10-12T12:00:01+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 51,
+      "host": "Fisher",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "GBJam 14",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gbjam-14",
+      "starts_at": "2026-09-11T19:00:00+08:00",
+      "ends_at": "2026-09-21T19:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 536,
+      "host": "Polyducks",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "Imaginary Game Jam 2026 ($600 Cash Prizes)",
+      "source": "itch.io targeted search",
+      "url": "https://itch.io/jam/imaginary-game-jam-2026",
+      "starts_at": "2026-09-11T22:00:00+08:00",
+      "ends_at": "2026-09-27T11:59:59+08:00",
+      "submission_deadline": "2026-09-27T11:59:59+08:00",
+      "status": "upcoming",
+      "tags": [
+        "targeted-search",
+        "cash-prizes",
+        "solo"
+      ],
+      "participants": 22,
+      "host": "Caxt Nova",
+      "discovered_at": "2026-06-26T22:18:00+08:00",
+      "last_seen_at": "2026-06-26T22:18:00+08:00",
+      "observed_from": [
+        "targeted search: site:itch.io/jam game jam 2026 starts",
+        "targeted search: new game jam announced"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "GBA Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/gbajam26",
+      "starts_at": "2026-09-14T06:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 254,
+      "host": "Pyro_Pyro , Nikku4211 , skylyrac , GValiente , kva64 , exelotl , avivace",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": true
+    },
+    {
+      "title": "Bezi Mega Jam | $12,000+ in Prizes, GDC Passes, Synty Assets, iPad Pro M5 + Apple Pencil",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/bezi-mega-jam-1",
+      "starts_at": "2026-09-14T15:00:00+08:00",
+      "ends_at": "2026-09-28T15:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 70,
+      "host": "Bezi",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Creepy Games Jam | Summer Edition",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/creepy-games-jam-summer-edition",
+      "starts_at": "2026-09-22T10:35:55+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 95,
+      "host": "0racle_2022 , Natasha White",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Retro Recreation Jam - Summer 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/retro-recreation-2026",
+      "starts_at": "2026-09-22T12:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 94,
+      "host": "Raccoon Formality",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Global Quantum Game Jam",
+      "source": "itch.io targeted search",
+      "url": "https://itch.io/jam/quantum-game-jam-2026",
+      "starts_at": "2026-09-25T21:00:00+08:00",
+      "ends_at": "2026-09-28T04:59:59+08:00",
+      "submission_deadline": "2026-09-28T04:59:59+08:00",
+      "status": "upcoming",
+      "tags": [
+        "targeted-search",
+        "quantum",
+        "online"
+      ],
+      "participants": 1,
+      "host": "ljpiis, Red Nettle",
+      "discovered_at": "2026-06-26T22:18:00+08:00",
+      "last_seen_at": "2026-06-26T22:18:00+08:00",
+      "observed_from": [
+        "targeted search: site:itch.io/jam game jam 2026 starts"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Comfy Jam: Autumn 🎃",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/comfy-jam-autumn-2026",
+      "starts_at": "2026-10-03T06:00:00+08:00",
+      "ends_at": "2026-10-17T06:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 48,
+      "host": "Macrow",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "WOMEN's GAME FEST (2026)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/wgf2026",
+      "starts_at": "2026-11-01T08:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 431,
+      "host": "EVERIUM",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Science Fantasy Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/scifanjam",
+      "starts_at": "2026-11-01T12:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 334,
+      "host": "Platinum Soul Press , DarkChibiShadow",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "RPG Maker Horror Game Jam: Annual Edition 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/rpg-maker-horror-game-jam-annual-edition-2026",
+      "starts_at": "2026-11-23T16:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 96,
+      "host": "Beregon , BroodyGaming",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "GAME LAB",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/our-game-lab",
+      "starts_at": "2026-12-24T05:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 751,
+      "host": "socialnetworkgames",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Make Moves Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/makemoves",
+      "starts_at": "2027-01-01T00:15:44+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 136,
+      "host": "Plus One Exp , Kegan (@Keganexe) , Aaron King",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "2026 Annual Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/2026-jam",
+      "starts_at": "2027-01-01T06:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 137,
+      "host": "Infiland",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Interactive Fiction Showcase 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/interactive-fiction-showcase-2026",
+      "starts_at": "2027-01-01T06:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 141,
+      "host": "manonamora",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "WHAT ARE YOU AFRAID OF?",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/what-are-you-afraid-of-",
+      "starts_at": "2027-01-01T14:01:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 190,
+      "host": "earacorn",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "5 Year Long Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/5-year-long-jam",
+      "starts_at": "2027-03-01T02:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 1124,
+      "host": "Xeight",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "The Never-Ending Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/islife",
+      "starts_at": "2028-12-31T21:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 632,
+      "host": "Xavier Ekkel",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "OST Composing Jam NEWSLETTER",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/ostcompjam",
+      "starts_at": "2030-01-01T01:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 637,
+      "host": "Lone Rabbit",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Decade Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/decadejam",
+      "starts_at": "2030-01-01T16:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 4580,
+      "host": "James Earl Cox III , Avis , fedetibaldo",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "bad parody games",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/bad-parody-games",
+      "starts_at": "2030-02-21T06:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 190,
+      "host": "Nasikla",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "__jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/underscore-jam",
+      "starts_at": "2030-04-01T12:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 61,
+      "host": "underscore_grammer",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Story of Palestine",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/palestine-story",
+      "starts_at": "2030-08-31T21:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 193,
+      "host": "SGN",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "20 Years Game Jam!",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/20-years-game-jam",
+      "starts_at": "2043-05-01T11:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 133,
+      "host": "pixelabor",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Neverending Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/never-ending-gamejam",
+      "starts_at": "2100-01-01T07:03:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 858,
+      "host": "nathancity01",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "HOW LONG CAN WE JAM",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/how-long-can-we-jam",
+      "starts_at": "3779-07-01T12:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 706,
+      "host": "Starcharger",
+      "discovered_at": "2026-06-26T21:54:27+08:00",
+      "last_seen_at": "2026-06-26T21:54:27+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    }
+  ],
   "run_history": [],
   "source_failures": []
 }

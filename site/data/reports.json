@@ -1,3 +1,10 @@
 {
-  "reports": []
+  "reports": [
+    {
+      "date": "2026-06-26",
+      "title": "Daily Game Jam Research - 2026-06-26",
+      "summary": "- Run time: 2026-06-26T22:18:00+08:00 (Asia/Shanghai)\n- Previous state: 0 jams\n- Current state: 160 jams\n- New jams discovered: 160\n- Materially changed jams: 0\n- Fixed-source failures: 0",
+      "path": "../reports/game-jam/2026-06-26.md"
+    }
+  ]
 }
