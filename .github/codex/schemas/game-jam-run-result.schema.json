@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_date",
+    "new_jams",
+    "changed_jams",
+    "source_failures",
+    "report_path",
+    "state_path",
+    "summary"
+  ],
+  "properties": {
+    "run_date": {
+      "type": "string",
+      "description": "Beijing date for the run in YYYY-MM-DD format."
+    },
+    "new_jams": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "changed_jams": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_failures": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "report_path": {
+      "type": "string"
+    },
+    "state_path": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}

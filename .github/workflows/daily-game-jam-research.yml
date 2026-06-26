@@ -1,0 +1,42 @@
+name: Daily Game Jam Research
+
+on:
+  schedule:
+    # 09:00 Asia/Shanghai.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Run Codex research agent
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: .github/codex/prompts/daily-game-jam-research.md
+          sandbox: danger-full-access
+          codex-args: >-
+            ["--output-schema", ".github/codex/schemas/game-jam-run-result.schema.json"]
+          output-file: reports/game-jam/codex-final.json
+
+      - name: Commit report updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/game-jams reports/game-jam
+          if git diff --cached --quiet; then
+            echo "No game jam report changes to commit."
+          else
+            run_date="$(TZ=Asia/Shanghai date +%F)"
+            git commit -m "docs: daily game jam research ${run_date}"
+            git push
+          fi
