@@ -57,6 +57,7 @@ Normalize each jam into this shape:
 - `last_seen_at`
 
 Times must be ISO 8601 strings with `+08:00` when a precise time is available. Use `null` when a field is unknown.
+`status` must be one of `upcoming`, `active`, `ended`, or `unknown`. Use `active` for jams that a source labels as in progress.
 
 Deduplicate by canonical URL first, then by normalized title plus date range.
 
@@ -67,6 +68,8 @@ Write or update:
 - `data/game-jams/state.json`: current normalized state and run metadata.
 - `reports/game-jam/YYYY-MM-DD.md`: daily report using the Beijing date.
 - `reports/game-jam/latest.md`: copy or regenerate the latest daily report.
+
+`data/game-jams/state.json` must include top-level `schema_version`, `last_run_at`, `jams`, and `source_failures`. `last_run_at` must be the run time in `Asia/Shanghai` with `+08:00`.
 
 Do not edit `site/data/` directly. `scripts/build-site.mjs` derives website data from `data/game-jams/state.json` and `reports/game-jam/`. Do not rewrite `reports/game-jam/source-snapshot.json`; it is owned by `scripts/fetch-game-jam-sources.mjs`.
 

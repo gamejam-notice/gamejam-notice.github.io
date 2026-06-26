@@ -30,6 +30,7 @@ codex exec \
   -o reports/game-jam/codex-final.json \
   "$PROMPT"
 
+node scripts/validate-game-jam-state.mjs
 node scripts/build-site.mjs
 
 git add data/game-jams reports/game-jam site/data

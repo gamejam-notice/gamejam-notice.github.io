@@ -369,6 +369,7 @@ async function main() {
   const normalizedJams = mergeNormalizedJams(sources, fetchedAt);
   const snapshot = {
     schema_version: 1,
+    generated_at: fetchedAt,
     fetched_at: fetchedAt,
     sources,
     normalized_jams: normalizedJams,

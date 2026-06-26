@@ -4,7 +4,7 @@
     "run_started_at": "2026-06-26T22:18:00+08:00",
     "timezone": "Asia/Shanghai",
     "snapshot_path": "reports/game-jam/source-snapshot.json",
-    "snapshot_generated_at": null,
+    "snapshot_generated_at": "2026-06-26T21:54:27+08:00",
     "checked_sources": [
       "https://itch.io/jams/upcoming/sort-date",
       "https://itch.io/jams/upcoming",
@@ -37,7 +37,7 @@
       "starts_at": "2026-06-01T06:00:00+08:00",
       "ends_at": "2026-08-17T05:59:59+08:00",
       "submission_deadline": "2026-08-17T05:59:59+08:00",
-      "status": "in_progress",
+      "status": "active",
       "tags": [
         "targeted-search",
         "private-jam"
@@ -3177,5 +3177,7 @@
       "featured": false
     }
   ],
-  "source_failures": []
+  "source_failures": [],
+  "schema_version": 1,
+  "last_run_at": "2026-06-26T22:18:00+08:00"
 }

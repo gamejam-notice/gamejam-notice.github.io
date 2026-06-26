@@ -18,6 +18,7 @@ The first implementation should use these repository-local components:
 - `.github/codex/schemas/game-jam-run-result.schema.json`: final response schema used by automation consumers.
 - `scripts/fetch-game-jam-sources.mjs`: deterministic fixed-source fetcher that snapshots source availability and normalizes itch.io jam records without third-party packages.
 - `scripts/run-local-game-jam-agent.sh`: local runner that invokes Codex, builds website data, commits, and pushes changes.
+- `scripts/validate-game-jam-state.mjs`: publication gate for normalized state shape, allowed status values, and `Asia/Shanghai` timestamps.
 - `scripts/install-launchd.sh`: installs the macOS daily schedule.
 - `.github/workflows/deploy-pages.yml`: deploys the static website to GitHub Pages whenever `site/` changes are pushed.
 - `data/game-jams/state.json`: latest normalized discovery state.
@@ -36,8 +37,9 @@ Codex is responsible for web research, source failure reporting, normalization r
 6. Compare normalized records with previous state.
 7. Generate a daily report containing newly discovered jams, materially changed jams, and source failures.
 8. Persist the new discovery state and run metadata.
-9. Build static website data from state and reports.
-10. Commit and push changes so GitHub Pages publishes the updated site.
+9. Validate the normalized state before publication.
+10. Build static website data from state and reports.
+11. Commit and push changes so GitHub Pages publishes the updated site.
 
 ## Source Priority
 
