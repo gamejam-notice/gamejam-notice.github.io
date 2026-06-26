@@ -6,6 +6,7 @@ const root = path.resolve(new URL("..", import.meta.url).pathname);
 const statePath = path.join(root, "data/game-jams/state.json");
 const reportsDir = path.join(root, "reports/game-jam");
 const siteDataDir = path.join(root, "site/data");
+const siteIndexPath = path.join(root, "site/index.html");
 
 function beijingTimestamp(date = new Date()) {
   const parts = Object.fromEntries(
@@ -88,6 +89,38 @@ function normalizeState(state) {
   };
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function formatRunMeta(value) {
+  if (!value) return "Waiting for the first local Codex scan.";
+  return `Last scan: ${value.replace("T", " ").replace("+08:00", "")} Asia/Shanghai`;
+}
+
+async function updateIndexPlaceholders(state) {
+  let html = await fs.readFile(siteIndexPath, "utf8");
+  const replacements = [
+    ["metric-total", state.totals.jams],
+    ["metric-upcoming", state.totals.upcoming],
+    ["metric-active", state.totals.active],
+    ["metric-sources", state.totals.sources],
+    ["run-meta", formatRunMeta(state.last_run_at)],
+  ];
+
+  for (const [id, value] of replacements) {
+    const pattern = new RegExp(`(<[^>]+id="${id}"[^>]*>)([\\s\\S]*?)(</[^>]+>)`);
+    html = html.replace(pattern, `$1${escapeHtml(value)}$3`);
+  }
+
+  await fs.writeFile(siteIndexPath, html);
+}
+
 await fs.mkdir(siteDataDir, { recursive: true });
 const state = normalizeState(await readJson(statePath, { schema_version: 1, jams: [] }));
 const reports = await listReports();
@@ -100,5 +133,6 @@ await fs.writeFile(
   path.join(siteDataDir, "reports.json"),
   `${JSON.stringify({ reports }, null, 2)}\n`,
 );
+await updateIndexPlaceholders(state);
 
 console.log(`Built site data with ${state.jams.length} jams and ${reports.length} reports.`);

@@ -122,28 +122,33 @@ async function loadJson(url, fallback) {
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     return response.json();
-  } catch {
+  } catch (error) {
+    console.warn(`Failed to load ${url}`, error);
     return fallback;
   }
 }
 
 const [state, reportData] = await Promise.all([
-  loadJson(stateUrl, { totals: {}, jams: [] }),
+  loadJson(stateUrl, null),
   loadJson(reportsUrl, { reports: [] }),
 ]);
 
-jams = Array.isArray(state.jams) ? state.jams : [];
-els.total.textContent = state.totals?.jams ?? jams.length;
-els.upcoming.textContent = state.totals?.upcoming ?? jams.filter((jam) => jam.status === "upcoming").length;
-els.active.textContent = state.totals?.active ?? jams.filter((jam) => jam.status === "active").length;
-els.sources.textContent = state.totals?.sources ?? new Set(jams.map((jam) => jam.source).filter(Boolean)).size;
-els.runMeta.textContent = state.last_run_at
-  ? `Last scan: ${formatTime(state.last_run_at)}`
-  : "Waiting for the first local Codex scan.";
+if (state) {
+  jams = Array.isArray(state.jams) ? state.jams : [];
+  els.total.textContent = state.totals?.jams ?? jams.length;
+  els.upcoming.textContent = state.totals?.upcoming ?? jams.filter((jam) => jam.status === "upcoming").length;
+  els.active.textContent = state.totals?.active ?? jams.filter((jam) => jam.status === "active").length;
+  els.sources.textContent = state.totals?.sources ?? new Set(jams.map((jam) => jam.source).filter(Boolean)).size;
+  els.runMeta.textContent = state.last_run_at
+    ? `Last scan: ${formatTime(state.last_run_at)}`
+    : "Waiting for the first local Codex scan.";
+} else {
+  els.runMeta.textContent = "Latest data could not be loaded. Showing the last built summary.";
+}
 
 renderJams();
 renderReports(reportData.reports ?? []);
-renderSourceNotes(state);
+renderSourceNotes(state ?? { source_failures: [] });
 
 els.search.addEventListener("input", renderJams);
 els.status.addEventListener("change", renderJams);

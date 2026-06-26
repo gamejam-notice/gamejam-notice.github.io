@@ -33,7 +33,7 @@ codex exec \
 node scripts/validate-game-jam-state.mjs
 node scripts/build-site.mjs
 
-git add data/game-jams reports/game-jam site/data
+git add data/game-jams reports/game-jam site/data site/index.html
 if git diff --cached --quiet; then
   echo "No game jam updates to publish."
   exit 0

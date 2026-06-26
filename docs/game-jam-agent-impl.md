@@ -11,7 +11,7 @@ The repository currently implements the first version as a local scheduled Codex
 - `scripts/install-launchd.sh`: installs the macOS user-level daily schedule at 09:00 local time.
 - `scripts/uninstall-launchd.sh`: removes the macOS scheduled job.
 - `scripts/validate-game-jam-state.mjs`: validates normalized state shape, status values, and `Asia/Shanghai` timestamps before site data is built.
-- `scripts/build-site.mjs`: converts repository state and reports into website-ready JSON.
+- `scripts/build-site.mjs`: converts repository state and reports into website-ready JSON and refreshes static homepage metric placeholders.
 - `.github/codex/prompts/daily-game-jam-research.md`: durable instruction prompt for each unattended Codex run.
 - `.github/codex/schemas/game-jam-run-result.schema.json`: JSON Schema for the final Codex response.
 - `.github/workflows/deploy-pages.yml`: deploys `site/` to GitHub Pages after site changes are pushed.
