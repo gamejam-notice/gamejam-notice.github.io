@@ -2,7 +2,7 @@
 
 ## Current Scaffold
 
-The repository currently implements the first version as a local scheduled Codex runner plus a GitHub Pages static website. The local runner researches public game jam sources, updates repository-local state, builds website data, commits the changes, and pushes them. GitHub Pages only deploys the static site after those changes reach GitHub.
+The repository currently implements the first version as a local scheduled Codex runner plus a GitHub Pages static website. The local runner researches public game jam sources, updates repository-local state, builds website data, commits the changes, and pushes them. GitHub Pages deploys the static site from the `site/` directory after those changes reach GitHub.
 
 ## Files
 
@@ -22,11 +22,11 @@ The repository currently implements the first version as a local scheduled Codex
 - Codex CLI must be installed and authenticated on the local Mac.
 - The local repository should use `https://github.com/gamejam-notice/gamejam-notice.github.io.git` as `origin` if updates should publish to the production GitHub Pages site.
 - The computer must be awake at the scheduled time for `launchd` to run the agent.
-- GitHub Pages must be enabled with GitHub Actions as the Pages source.
+- GitHub Pages must remain enabled with GitHub Actions as the Pages source.
 
 ## Deployment Target
 
-The intended production repository is `gamejam-notice/gamejam-notice.github.io`. With GitHub Pages enabled, the public site URL is `https://gamejam-notice.github.io/`.
+The production repository is `gamejam-notice/gamejam-notice.github.io`. It is public, uses `main` as the default branch, and publishes `https://gamejam-notice.github.io/` through the `Deploy GitHub Pages` workflow. GitHub Pages is configured with `build_type=workflow`, so the live site comes from the uploaded `site/` artifact rather than GitHub's legacy root-directory Pages build.
 
 ## Run Flow
 
@@ -44,7 +44,8 @@ The intended production repository is `gamejam-notice/gamejam-notice.github.io`.
 - Indie Game Jams timeline extraction may require browser rendering or reverse-engineering the JavaScript data bundle.
 - The first run will treat all discovered jams as new because the state file starts empty.
 - The static website shows an empty state until the first local agent run writes real jam records.
+- GitHub Actions currently emits a Node.js 20 deprecation warning for upstream Pages actions, but the workflow succeeds and GitHub runs the affected actions on Node.js 24.
 
 ## Next Implementation Step
 
-Create the empty GitHub repository `gamejam-notice/gamejam-notice.github.io`, push `main`, and enable GitHub Pages with GitHub Actions as the source. Then run `scripts/run-local-game-jam-agent.sh` manually once from a clean working tree. Review the generated report, `data/game-jams/state.json`, and the local website. If the output looks useful, run `scripts/install-launchd.sh` to schedule the daily job.
+Run `scripts/run-local-game-jam-agent.sh` manually once from a clean working tree. Review the generated report, `data/game-jams/state.json`, and the published website data. If the output looks useful, run `scripts/install-launchd.sh` to schedule the daily job.
