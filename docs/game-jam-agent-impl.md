@@ -20,9 +20,13 @@ The repository currently implements the first version as a local scheduled Codex
 ## Runtime Requirements
 
 - Codex CLI must be installed and authenticated on the local Mac.
-- The local repository should have an `origin` remote configured if updates should publish to GitHub Pages automatically.
+- The local repository should use `https://github.com/gamejam-notice/gamejam-notice.github.io.git` as `origin` if updates should publish to the production GitHub Pages site.
 - The computer must be awake at the scheduled time for `launchd` to run the agent.
 - GitHub Pages must be enabled with GitHub Actions as the Pages source.
+
+## Deployment Target
+
+The intended production repository is `gamejam-notice/gamejam-notice.github.io`. With GitHub Pages enabled, the public site URL is `https://gamejam-notice.github.io/`.
 
 ## Run Flow
 
@@ -43,4 +47,4 @@ The repository currently implements the first version as a local scheduled Codex
 
 ## Next Implementation Step
 
-Configure a GitHub `origin` remote and enable GitHub Pages with GitHub Actions as the source. Then run `scripts/run-local-game-jam-agent.sh` manually once from a clean working tree. Review the generated report, `data/game-jams/state.json`, and the local website. If the output looks useful, run `scripts/install-launchd.sh` to schedule the daily job.
+Create the empty GitHub repository `gamejam-notice/gamejam-notice.github.io`, push `main`, and enable GitHub Pages with GitHub Actions as the source. Then run `scripts/run-local-game-jam-agent.sh` manually once from a clean working tree. Review the generated report, `data/game-jams/state.json`, and the local website. If the output looks useful, run `scripts/install-launchd.sh` to schedule the daily job.
