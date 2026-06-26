@@ -19,7 +19,7 @@ This project designs and implements a local Codex-based daily research agent for
 
 ## Current Status
 
-The repository has a first local `launchd` plus Codex prompt scaffold and a GitHub Pages static site. The production repository is public at `gamejam-notice/gamejam-notice.github.io`, and `https://gamejam-notice.github.io/` is deployed from the `site/` directory through GitHub Actions. The next step is to run the local agent once, review the generated site data, then install the daily schedule.
+The repository has a first local `launchd` plus Codex prompt scaffold, a deterministic fixed-source snapshot helper, and a GitHub Pages static site. The production repository is public at `gamejam-notice/gamejam-notice.github.io`, and `https://gamejam-notice.github.io/` is deployed from the `site/` directory through GitHub Actions. The next step is to run the local agent once, review the generated site data, then install the daily schedule.
 
 ## Constraints
 

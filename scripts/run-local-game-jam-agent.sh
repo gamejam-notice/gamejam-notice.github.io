@@ -21,6 +21,8 @@ if git remote get-url origin >/dev/null 2>&1; then
   git pull --ff-only origin "$(git branch --show-current)"
 fi
 
+node scripts/fetch-game-jam-sources.mjs
+
 PROMPT="$(cat .github/codex/prompts/daily-game-jam-research.md)"
 codex exec \
   --sandbox danger-full-access \

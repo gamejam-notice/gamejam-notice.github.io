@@ -7,6 +7,7 @@ The repository currently implements the first version as a local scheduled Codex
 ## Files
 
 - `scripts/run-local-game-jam-agent.sh`: invokes Codex, builds website data, commits changed data/reports/site output, and pushes to `origin`.
+- `scripts/fetch-game-jam-sources.mjs`: fetches fixed source pages, records source availability, and normalizes itch.io jam cards into `reports/game-jam/source-snapshot.json`.
 - `scripts/install-launchd.sh`: installs the macOS user-level daily schedule at 09:00 local time.
 - `scripts/uninstall-launchd.sh`: removes the macOS scheduled job.
 - `scripts/build-site.mjs`: converts repository state and reports into website-ready JSON.
@@ -33,14 +34,15 @@ The production repository is `gamejam-notice/gamejam-notice.github.io`. It is pu
 1. `launchd` invokes `scripts/run-local-game-jam-agent.sh` every day at 09:00 local time.
 2. The runner refuses to continue if the working tree has uncommitted changes.
 3. The runner pulls the current branch from `origin` when a remote exists.
-4. Codex reads project documents, checks configured sources, performs targeted searches, updates `data/game-jams/state.json`, and writes `reports/game-jam/YYYY-MM-DD.md` plus `reports/game-jam/latest.md`.
-5. `scripts/build-site.mjs` writes `site/data/game-jams.json` and `site/data/reports.json`.
-6. The runner commits changed data, reports, and website data, then pushes to `origin`.
-7. GitHub Actions deploys `site/` to GitHub Pages.
+4. `scripts/fetch-game-jam-sources.mjs` writes `reports/game-jam/source-snapshot.json` with fixed-source fetch status and normalized itch.io records.
+5. Codex reads project documents and the source snapshot, performs targeted searches, updates `data/game-jams/state.json`, and writes `reports/game-jam/YYYY-MM-DD.md` plus `reports/game-jam/latest.md`.
+6. `scripts/build-site.mjs` writes `site/data/game-jams.json` and `site/data/reports.json`.
+7. The runner commits changed data, reports, and website data, then pushes to `origin`.
+8. GitHub Actions deploys `site/` to GitHub Pages.
 
 ## Current Limitations
 
-- Source extraction is Codex-led rather than deterministic code-led.
+- Fixed-source extraction has deterministic itch.io support, while Global Game Jam, Ludum Dare, and Indie Game Jams snapshots currently store generic page summaries rather than full normalized jam records.
 - Indie Game Jams timeline extraction may require browser rendering or reverse-engineering the JavaScript data bundle.
 - The first run will treat all discovered jams as new because the state file starts empty.
 - The static website shows an empty state until the first local agent run writes real jam records.

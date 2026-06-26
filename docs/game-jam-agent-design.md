@@ -16,6 +16,7 @@ The first implementation should use these repository-local components:
 
 - `.github/codex/prompts/daily-game-jam-research.md`: durable Codex prompt for each unattended run.
 - `.github/codex/schemas/game-jam-run-result.schema.json`: final response schema used by automation consumers.
+- `scripts/fetch-game-jam-sources.mjs`: deterministic fixed-source fetcher that snapshots source availability and normalizes itch.io jam records without third-party packages.
 - `scripts/run-local-game-jam-agent.sh`: local runner that invokes Codex, builds website data, commits, and pushes changes.
 - `scripts/install-launchd.sh`: installs the macOS daily schedule.
 - `.github/workflows/deploy-pages.yml`: deploys the static website to GitHub Pages whenever `site/` changes are pushed.
@@ -23,19 +24,20 @@ The first implementation should use these repository-local components:
 - `reports/game-jam/`: human-readable Markdown reports.
 - `site/`: static website published by GitHub Pages.
 
-Codex is responsible for web research, source failure reporting, normalization review, and writing the daily Markdown report. Deterministic scripts build website-ready JSON from the repository state. Deterministic source fetchers can be added later if a source needs more reliable parsing than Codex-led browsing.
+Codex is responsible for web research, source failure reporting, normalization review, and writing the daily Markdown report. Deterministic scripts fetch fixed-source snapshots and build website-ready JSON from the repository state. More source-specific fetchers can be added later when a source needs more reliable parsing than Codex-led browsing.
 
 ## Initial Workflow
 
 1. Load the previous discovery state.
-2. Query configured public sources for current and upcoming game jams.
-3. Normalize each jam into a shared record.
-4. Deduplicate by source URL, canonical host path, and title plus date range.
-5. Compare normalized records with previous state.
-6. Generate a daily report containing newly discovered jams, materially changed jams, and source failures.
-7. Persist the new discovery state and run metadata.
-8. Build static website data from state and reports.
-9. Commit and push changes so GitHub Pages publishes the updated site.
+2. Generate a deterministic fixed-source snapshot for configured public sources.
+3. Use Codex to review the snapshot, perform targeted web searches, and identify current and upcoming game jams.
+4. Normalize each jam into a shared record.
+5. Deduplicate by source URL, canonical host path, and title plus date range.
+6. Compare normalized records with previous state.
+7. Generate a daily report containing newly discovered jams, materially changed jams, and source failures.
+8. Persist the new discovery state and run metadata.
+9. Build static website data from state and reports.
+10. Commit and push changes so GitHub Pages publishes the updated site.
 
 ## Source Priority
 

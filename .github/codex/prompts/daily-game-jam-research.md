@@ -10,7 +10,8 @@ Find newly discovered or materially changed public game jams since the previous 
 
 1. Read `AGENTS.md`, `README.md`, `docs/game-jam-agent-design.md`, and `docs/game-jam-research-notes.md`.
 2. Load `data/game-jams/state.json` if it exists.
-3. Use Beijing time (`Asia/Shanghai`, UTC+8) for all user-facing times and report filenames.
+3. Load `reports/game-jam/source-snapshot.json` if it exists. The local runner creates this file with `node scripts/fetch-game-jam-sources.mjs` before invoking Codex.
+4. Use Beijing time (`Asia/Shanghai`, UTC+8) for all user-facing times and report filenames.
 
 ## Sources
 
@@ -25,6 +26,8 @@ Check these fixed sources first:
 - https://globalgamejam.org/jam-sites/2026
 - https://ludumdare.com/
 - https://indiegamejams.com/
+
+Prefer `reports/game-jam/source-snapshot.json` for the fixed sources above. Its `normalized_jams` array is the deterministic baseline for itch.io records, and its `sources` array records source fetch failures and generic page summaries. Do not install packages or write ad hoc Python parsers for these fixed sources. If the snapshot is missing, run `node scripts/fetch-game-jam-sources.mjs` once and then read the generated file.
 
 Then run targeted web searches for newly announced jams:
 
@@ -65,7 +68,7 @@ Write or update:
 - `reports/game-jam/YYYY-MM-DD.md`: daily report using the Beijing date.
 - `reports/game-jam/latest.md`: copy or regenerate the latest daily report.
 
-Do not edit `site/data/` directly. `scripts/build-site.mjs` derives website data from `data/game-jams/state.json` and `reports/game-jam/`.
+Do not edit `site/data/` directly. `scripts/build-site.mjs` derives website data from `data/game-jams/state.json` and `reports/game-jam/`. Do not rewrite `reports/game-jam/source-snapshot.json`; it is owned by `scripts/fetch-game-jam-sources.mjs`.
 
 The report must include:
 
