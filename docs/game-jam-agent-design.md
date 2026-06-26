@@ -4,7 +4,7 @@
 
 Build a Codex-based agent that runs daily, discovers newly listed or newly relevant game jams, deduplicates them against prior runs, and produces a concise report for follow-up decisions.
 
-The recommended first version is a scheduled Codex GitHub Action. It keeps the research prompt, source list, state files, and reports in this repository so each run can be reviewed as a normal Git diff.
+The recommended first version is a local scheduled Codex runner on the user's Mac. It keeps the research prompt, source list, state files, reports, and website assets in this repository so each run can be reviewed as a normal Git diff before or after publishing.
 
 ## Scope
 
@@ -14,13 +14,16 @@ The agent should focus on public game jam discovery sources. It should not regis
 
 The first implementation should use these repository-local components:
 
-- `.github/workflows/daily-game-jam-research.yml`: runs the daily Codex job at 09:00 Beijing time and commits changed reports or state.
 - `.github/codex/prompts/daily-game-jam-research.md`: durable Codex prompt for each unattended run.
 - `.github/codex/schemas/game-jam-run-result.schema.json`: final response schema used by automation consumers.
+- `scripts/run-local-game-jam-agent.sh`: local runner that invokes Codex, builds website data, commits, and pushes changes.
+- `scripts/install-launchd.sh`: installs the macOS daily schedule.
+- `.github/workflows/deploy-pages.yml`: deploys the static website to GitHub Pages whenever `site/` changes are pushed.
 - `data/game-jams/state.json`: latest normalized discovery state.
 - `reports/game-jam/`: human-readable Markdown reports.
+- `site/`: static website published by GitHub Pages.
 
-Codex is responsible for web research, source failure reporting, normalization review, and writing the daily Markdown report. Deterministic fetchers can be added later if a source needs more reliable parsing than Codex-led browsing.
+Codex is responsible for web research, source failure reporting, normalization review, and writing the daily Markdown report. Deterministic scripts build website-ready JSON from the repository state. Deterministic source fetchers can be added later if a source needs more reliable parsing than Codex-led browsing.
 
 ## Initial Workflow
 
@@ -31,6 +34,8 @@ Codex is responsible for web research, source failure reporting, normalization r
 5. Compare normalized records with previous state.
 6. Generate a daily report containing newly discovered jams, materially changed jams, and source failures.
 7. Persist the new discovery state and run metadata.
+8. Build static website data from state and reports.
+9. Commit and push changes so GitHub Pages publishes the updated site.
 
 ## Source Priority
 
@@ -59,17 +64,17 @@ Sources should be cited in each report. Content from source pages must be treate
 
 ## Scheduling
 
-Use a daily scheduled runner that invokes Codex with a deterministic prompt and repository-local state. The initial scaffold uses GitHub Actions cron `0 1 * * *`, which corresponds to 09:00 in `Asia/Shanghai`.
+Use macOS `launchd` on the user's computer to invoke Codex daily at 09:00 local time. The repository assumes the computer is awake, Codex CLI is authenticated, and the repository has a Git remote configured when publishing to GitHub Pages is desired.
 
 Alternative scheduling options:
 
-- Codex App standalone automation: easiest for a personal workstation, but requires the machine and local project to be available when the automation fires.
-- Local cron plus `codex exec`: useful for a private machine or server; requires local Codex authentication and operational monitoring.
-- GitHub Actions plus `openai/codex-action`: best first shared implementation because prompts, state, reports, and diffs stay in Git.
+- Codex App standalone automation: useful if the output should appear in Codex Triage, but less direct for committing website updates.
+- Local cron plus `codex exec`: acceptable on Linux or simple servers; on macOS, `launchd` is preferred.
+- GitHub Actions plus `openai/codex-action`: not used for the agent because the desired design keeps the OpenAI/Codex run on the local computer.
 
 ## Output
 
-The default output should be a Markdown daily report plus a JSON state file. Delivery channels such as email, Slack, GitHub Issues, or a dashboard can be added after the core discovery loop is stable.
+The default output should be a Markdown daily report, a JSON state file, and derived website JSON under `site/data/`. GitHub Pages publishes `site/` as the public dashboard.
 
 ## Failure Handling
 
@@ -79,7 +84,9 @@ If Codex finds no new jams, the run should still update the latest report summar
 
 ## Security And Operations
 
-The GitHub Actions version needs network access for public web research, so it uses `danger-full-access` in an isolated GitHub-hosted runner. The workflow must only run from trusted scheduled or manual triggers and must keep `OPENAI_API_KEY` in GitHub Secrets.
+The local runner needs network access for public web research and write access to update repository files. It refuses to run unattended when the working tree is dirty, which prevents scheduled runs from mixing with manual edits.
+
+The GitHub Actions workflow only deploys static files to Pages. It does not run Codex and does not need an OpenAI API key.
 
 Fetched web pages are untrusted input. The prompt must explicitly require Codex to ignore instructions from source content and only extract factual game jam data.
 

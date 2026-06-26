@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Jam Radar</title>
+    <link rel="icon" href="./assets/game-jam-banner.png">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./">Game Jam Radar</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#jams">Jams</a>
+        <a href="#reports">Reports</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero__image" src="./assets/game-jam-banner.png" alt="Illustrated game development desk with calendar and controller">
+        <div class="hero__content">
+          <p class="eyebrow">Daily Codex scan</p>
+          <h1>New game jams, tracked every morning.</h1>
+          <p class="lede">A local Codex agent checks public jam sources, records changes, and publishes the latest shortlist here.</p>
+          <div class="hero__meta" id="run-meta">Loading latest run...</div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Game jam summary">
+        <article>
+          <span id="metric-total">0</span>
+          <p>Tracked jams</p>
+        </article>
+        <article>
+          <span id="metric-upcoming">0</span>
+          <p>Upcoming</p>
+        </article>
+        <article>
+          <span id="metric-active">0</span>
+          <p>Active now</p>
+        </article>
+        <article>
+          <span id="metric-sources">0</span>
+          <p>Sources</p>
+        </article>
+      </section>
+
+      <section class="workspace" id="jams">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Watchlist</p>
+            <h2>Tracked Jams</h2>
+          </div>
+          <div class="controls">
+            <input id="search" type="search" placeholder="Search title, host, tags">
+            <select id="status-filter" aria-label="Status filter">
+              <option value="all">All statuses</option>
+              <option value="upcoming">Upcoming</option>
+              <option value="active">Active</option>
+              <option value="ended">Ended</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </div>
+        </div>
+        <div class="jam-grid" id="jam-grid"></div>
+        <p class="empty" id="empty-state" hidden>No jams match the current filter.</p>
+      </section>
+
+      <section class="split">
+        <div class="panel" id="reports">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">Reports</p>
+              <h2>Recent Runs</h2>
+            </div>
+          </div>
+          <div class="report-list" id="report-list"></div>
+        </div>
+
+        <div class="panel" id="sources">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">Reliability</p>
+              <h2>Source Notes</h2>
+            </div>
+          </div>
+          <div class="source-list" id="source-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

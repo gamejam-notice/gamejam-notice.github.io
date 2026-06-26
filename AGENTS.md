@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project designs and implements a Codex-based daily research agent for discovering new game jams and producing actionable summaries.
+This project designs and implements a local Codex-based daily research agent for discovering new game jams and publishing them to a GitHub Pages static website.
 
 ## Reading Order
 
@@ -14,12 +14,12 @@ This project designs and implements a Codex-based daily research agent for disco
 ## Document Index
 
 - `docs/game-jam-agent-design.md` - Defines the desired agent workflow, data model, scheduling strategy, and operational boundaries.
-- `docs/game-jam-agent-impl.md` - Describes the current GitHub Actions and Codex prompt scaffold.
+- `docs/game-jam-agent-impl.md` - Describes the current local scheduler, Codex prompt, static site, and Pages deployment scaffold.
 - `docs/game-jam-research-notes.md` - Records reusable research about game jam discovery sources and source-specific constraints.
 
 ## Current Status
 
-The repository has a first GitHub Actions plus Codex prompt scaffold for daily research. The next step is to run it manually, review the first generated report, and decide whether deterministic source parsers are needed.
+The repository has a first local `launchd` plus Codex prompt scaffold and a GitHub Pages static site. The next step is to run the local agent once, review the generated site data, then install the daily schedule.
 
 ## Constraints
 

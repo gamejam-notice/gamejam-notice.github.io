@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "last_run_at": null,
+  "generated_at": "2026-06-26T05:16:42.445Z",
+  "totals": {
+    "jams": 0,
+    "upcoming": 0,
+    "active": 0,
+    "sources": 0
+  },
+  "jams": [],
+  "run_history": [],
+  "source_failures": []
+}

@@ -1,10 +1,10 @@
 # Daily Game Jam Research
 
-You are running as an unattended Codex research agent for this repository.
+You are running as an unattended local Codex research agent for this repository.
 
 ## Objective
 
-Find newly discovered or materially changed public game jams since the previous run. Update repository-local state and write a concise daily Markdown report.
+Find newly discovered or materially changed public game jams since the previous run. Update repository-local state and write a concise daily Markdown report. Do not deploy the website, commit changes, or push to Git; the local runner script handles those steps after this prompt finishes.
 
 ## Required Setup
 
@@ -64,6 +64,8 @@ Write or update:
 - `data/game-jams/state.json`: current normalized state and run metadata.
 - `reports/game-jam/YYYY-MM-DD.md`: daily report using the Beijing date.
 - `reports/game-jam/latest.md`: copy or regenerate the latest daily report.
+
+Do not edit `site/data/` directly. `scripts/build-site.mjs` derives website data from `data/game-jams/state.json` and `reports/game-jam/`.
 
 The report must include:
 
