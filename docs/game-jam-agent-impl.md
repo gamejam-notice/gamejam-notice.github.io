@@ -19,6 +19,14 @@ The repository currently implements the first version as a local scheduled Codex
 - `reports/game-jam/`: daily Markdown reports and the latest Codex final response.
 - `site/`: static website source and derived data used by GitHub Pages.
 
+## Static Site UI
+
+The `site/` directory is a dependency-free static dashboard. `site/index.html` defines the public page structure, `site/styles.css` owns the responsive visual system, and `site/app.js` loads `site/data/game-jams.json` plus `site/data/reports.json` at runtime.
+
+The dashboard shows the latest scan time, tracked/upcoming/active/source counts, client-side search, status filtering, recent reports, and source failure notes. Jam cards render title, status, dates, host, source, tags, participant counts when available, and a short note or deadline summary. All user-facing time formatting uses `Asia/Shanghai`.
+
+The site is intended to remain static-host friendly: no package install, build-time JavaScript bundle, external image dependency, or server-side API is required. Local UI verification can use `python3 -m http.server <port> -d site` followed by a browser check against `http://127.0.0.1:<port>/`.
+
 ## Runtime Requirements
 
 - Codex CLI must be installed and authenticated on the local Mac.

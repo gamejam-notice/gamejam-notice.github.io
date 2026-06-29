@@ -9,7 +9,10 @@
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="./">Game Jam Radar</a>
+      <a class="brand" href="./">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>Game Jam Radar</span>
+      </a>
       <nav class="nav" aria-label="Primary">
         <a href="#jams">Jams</a>
         <a href="#reports">Reports</a>
@@ -21,28 +24,50 @@
       <section class="hero">
         <div class="hero__content">
           <p class="eyebrow">Daily Codex scan</p>
-          <h1>New game jams, tracked every morning.</h1>
-          <p class="lede">A local Codex agent checks public jam sources, records changes, and publishes the latest shortlist here.</p>
-          <div class="hero__meta" id="run-meta">Last scan: 2026-06-26 22:18:00 Asia/Shanghai</div>
+          <h1>Game jam scouting, refreshed every morning.</h1>
+          <p class="lede">A compact radar for upcoming and active jams, built from public sources and refreshed by a local Codex research run.</p>
+          <div class="hero__actions">
+            <a class="primary-link" href="#jams">Browse jams</a>
+            <span class="hero__meta" id="run-meta">Last scan: 2026-06-26 22:18:00 Asia/Shanghai</span>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="radar">
+            <span class="radar__ring one"></span>
+            <span class="radar__ring two"></span>
+            <span class="radar__ring three"></span>
+            <span class="radar__sweep"></span>
+            <span class="radar__dot dot-a"></span>
+            <span class="radar__dot dot-b"></span>
+            <span class="radar__dot dot-c"></span>
+          </div>
+          <div class="signal-card signal-card--top">
+            <strong>Upcoming</strong>
+            <span>Theme drops soon</span>
+          </div>
+          <div class="signal-card signal-card--bottom">
+            <strong>Active</strong>
+            <span>Submissions open</span>
+          </div>
         </div>
       </section>
 
       <section class="metrics" aria-label="Game jam summary">
         <article>
-          <span id="metric-total">160</span>
           <p>Tracked jams</p>
+          <span id="metric-total">160</span>
         </article>
         <article>
-          <span id="metric-upcoming">109</span>
           <p>Upcoming</p>
+          <span id="metric-upcoming">109</span>
         </article>
         <article>
-          <span id="metric-active">51</span>
           <p>Active now</p>
+          <span id="metric-active">51</span>
         </article>
         <article>
-          <span id="metric-sources">2</span>
           <p>Sources</p>
+          <span id="metric-sources">2</span>
         </article>
       </section>
 
@@ -51,18 +76,26 @@
           <div>
             <p class="eyebrow">Watchlist</p>
             <h2>Tracked Jams</h2>
+            <p class="section-copy">Search the latest normalized jam records. Times are displayed in Asia/Shanghai.</p>
           </div>
           <div class="controls">
-            <input id="search" type="search" placeholder="Search title, host, tags">
-            <select id="status-filter" aria-label="Status filter">
-              <option value="all">All statuses</option>
-              <option value="upcoming">Upcoming</option>
-              <option value="active">Active</option>
-              <option value="ended">Ended</option>
-              <option value="unknown">Unknown</option>
-            </select>
+            <label>
+              <span>Search</span>
+              <input id="search" type="search" placeholder="Title, host, source, tag">
+            </label>
+            <label>
+              <span>Status</span>
+              <select id="status-filter" aria-label="Status filter">
+                <option value="all">All statuses</option>
+                <option value="upcoming">Upcoming</option>
+                <option value="active">Active</option>
+                <option value="ended">Ended</option>
+                <option value="unknown">Unknown</option>
+              </select>
+            </label>
           </div>
         </div>
+        <div class="list-meta" id="list-meta">Loading jams...</div>
         <div class="jam-grid" id="jam-grid"></div>
         <p class="empty" id="empty-state" hidden>No jams match the current filter.</p>
       </section>

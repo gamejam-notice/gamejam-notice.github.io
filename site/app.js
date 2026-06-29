@@ -11,6 +11,7 @@ const els = {
   empty: document.querySelector("#empty-state"),
   search: document.querySelector("#search"),
   status: document.querySelector("#status-filter"),
+  listMeta: document.querySelector("#list-meta"),
   reports: document.querySelector("#report-list"),
   sourcesList: document.querySelector("#source-list"),
 };
@@ -26,6 +27,13 @@ const formatter = new Intl.DateTimeFormat("en", {
 
 let jams = [];
 
+const statusRank = {
+  active: 0,
+  upcoming: 1,
+  unknown: 2,
+  ended: 3,
+};
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -35,6 +43,10 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function toClassName(value) {
+  return String(value ?? "unknown").replace(/[^a-z0-9_-]/gi, "").toLowerCase() || "unknown";
+}
+
 function formatTime(value) {
   if (!value) return "Unknown";
   const date = new Date(value);
@@ -42,32 +54,73 @@ function formatTime(value) {
   return formatter.format(date);
 }
 
+function getTimestamp(value) {
+  if (!value) return Number.POSITIVE_INFINITY;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? Number.POSITIVE_INFINITY : date.getTime();
+}
+
+function summarizeJam(jam) {
+  if (jam.notes) return jam.notes;
+  if (jam.submission_deadline && jam.submission_deadline !== jam.ends_at) {
+    return `Submission deadline: ${formatTime(jam.submission_deadline)}.`;
+  }
+  if (jam.participants) return `${jam.participants} participants tracked from ${jam.source ?? "the source"}.`;
+  return "Open the source page for full theme, rules, and submission details.";
+}
+
 function matchesFilter(jam) {
   const query = els.search.value.trim().toLowerCase();
   const status = els.status.value;
-  const text = [jam.title, jam.host, jam.source, ...(jam.tags ?? [])].join(" ").toLowerCase();
+  const text = [
+    jam.title,
+    jam.host,
+    jam.source,
+    jam.notes,
+    jam.status,
+    ...(jam.tags ?? []),
+  ]
+    .join(" ")
+    .toLowerCase();
   return (status === "all" || jam.status === status) && (!query || text.includes(query));
 }
 
 function renderJams() {
-  const visible = jams.filter(matchesFilter);
+  const visible = jams
+    .filter(matchesFilter)
+    .sort((a, b) => {
+      const rankDelta = (statusRank[a.status] ?? 4) - (statusRank[b.status] ?? 4);
+      if (rankDelta) return rankDelta;
+      return getTimestamp(a.starts_at) - getTimestamp(b.starts_at);
+    });
   els.empty.hidden = visible.length > 0;
+  els.listMeta.textContent = `${visible.length} of ${jams.length} jams shown`;
   els.grid.innerHTML = visible
     .map((jam) => {
       const tags = (jam.tags ?? []).slice(0, 4);
+      const url = jam.url ?? "#";
+      const status = jam.status ?? "unknown";
       return `
         <article class="jam-card">
           <div class="jam-card__top">
-            <h3><a href="${escapeHtml(jam.url ?? "#")}" target="_blank" rel="noreferrer">${escapeHtml(jam.title ?? "Untitled jam")}</a></h3>
-            <span class="status ${escapeHtml(jam.status ?? "unknown")}">${escapeHtml(jam.status ?? "unknown")}</span>
+            <h3><a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(jam.title ?? "Untitled jam")}</a></h3>
+            <span class="status ${escapeHtml(toClassName(status))}">${escapeHtml(status)}</span>
           </div>
+          <p class="jam-summary">${escapeHtml(summarizeJam(jam))}</p>
           <dl class="meta-list">
             <div><dt>Starts</dt><dd>${escapeHtml(formatTime(jam.starts_at))}</dd></div>
             <div><dt>Ends</dt><dd>${escapeHtml(formatTime(jam.ends_at))}</dd></div>
             <div><dt>Host</dt><dd>${escapeHtml(jam.host ?? "Unknown")}</dd></div>
             <div><dt>Source</dt><dd>${escapeHtml(jam.source ?? "Unknown")}</dd></div>
           </dl>
-          <div class="tags">${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+          <div class="tags">
+            ${jam.source ? `<span class="tag source-tag">${escapeHtml(jam.source)}</span>` : ""}
+            ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
+          </div>
+          <div class="jam-card__footer">
+            <span class="participants">${jam.participants ? `${escapeHtml(jam.participants)} participants` : "Participant count unavailable"}</span>
+            <a class="open-link" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">Open jam</a>
+          </div>
         </article>
       `;
     })
