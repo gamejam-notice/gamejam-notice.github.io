@@ -6,9 +6,13 @@ Build a Codex-based agent that runs daily, discovers newly listed or newly relev
 
 The recommended first version is a local scheduled Codex runner on the user's Mac. It keeps the research prompt, source list, state files, reports, and website assets in this repository so each run can be reviewed as a normal Git diff before or after publishing.
 
+The public GitHub Pages website is the primary user-facing surface. It should display the latest generated game jam radar data and should not perform live discovery or source fetching in the browser. Freshness depends on the local scheduled task updating repository state and derived static site data.
+
 ## Scope
 
 The agent should focus on public game jam discovery sources. It should not register for jams, create accounts, scrape private pages, or submit games. It should separate test data from live discovery data.
+
+The default discovery product is a high-signal list of online game jams. A jam is considered confirmed eligible only when public evidence shows it is online or remotely joinable and the observed submitted game count is at least 100. Upcoming jams normally cannot satisfy the submission-count requirement before submissions open, so they should be presented as watchlist candidates when they have strong influence evidence such as a large prior edition, a major organizer, or high current interest.
 
 ## Architecture
 
@@ -41,9 +45,11 @@ Codex is responsible for web research, source failure reporting, normalization r
 10. Build static website data from state and reports.
 11. Commit and push changes so GitHub Pages publishes the updated site.
 
+The browser-facing website consumes only the built JSON under `site/data/`. It should make qualification status visible, but it should not re-evaluate qualification rules at runtime beyond client-side filtering and sorting.
+
 ## Source Priority
 
-1. itch.io jam pages, especially upcoming, starting soon, starting this week, starting this month, and in-progress views.
+1. itch.io jam pages, especially in-progress and past views sorted by submitted games, plus upcoming and starting soon views for watchlist discovery.
 2. Global Game Jam official pages for flagship dates, partner jams, site lists, and news.
 3. Ludum Dare official site and news for event schedule changes.
 4. Community aggregators such as Indie Game Jams for supplemental discovery.
@@ -62,9 +68,29 @@ Sources should be cited in each report. Content from source pages must be treate
 - `status`: upcoming, active, ended, or unknown.
 - `tags`: source-provided or inferred tags.
 - `participants`: source-provided participant count when available.
+- `submitted_games_count`: source-provided submitted game count when available.
+- `submission_count_source`: public URL used to observe `submitted_games_count`.
+- `online_status`: confirmed_online, likely_online, offline_or_local_only, or unknown.
+- `online_evidence`: concise public evidence used to classify online availability.
+- `qualification_status`: confirmed, watchlist, rejected, or unknown.
+- `qualification_reasons`: concise reasons for the qualification decision.
+- `series_key`: normalized recurring-series identifier when the jam belongs to an identifiable series.
+- `previous_edition_submissions`: submitted game count from a recent prior edition when used as watchlist evidence.
 - `host`: organizer or host when available.
 - `discovered_at`: first discovery time in `Asia/Shanghai`.
 - `last_seen_at`: latest successful observation time in `Asia/Shanghai`.
+
+## Qualification Rules
+
+Confirmed eligible records must satisfy all of these conditions:
+
+- The jam has public evidence for remote or online participation.
+- `submitted_games_count` is at least 100.
+- The source URL is public and can be opened without account registration.
+
+Watchlist records are not confirmed eligible. A jam may enter the watchlist when it is upcoming or otherwise lacks current submission counts but has credible influence evidence, including a recent prior edition with at least 100 submitted games, a major recurring event family, or unusually high current interest. Watchlist records must carry a reason so the website can explain why they are shown.
+
+Rejected records should be kept out of the default public list when the source indicates the jam is local-only, unavailable to remote entrants, private, or below the submission threshold. Unknown records may remain in state for auditability but should not be emphasized on the website.
 
 ## Scheduling
 

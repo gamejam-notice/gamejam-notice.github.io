@@ -21,7 +21,7 @@ This project designs and implements a local Codex-based daily research agent for
 
 ## Current Status
 
-The repository has a first local `launchd` plus Codex prompt scaffold, a deterministic fixed-source snapshot helper, and a responsive GitHub Pages dashboard. The production repository is public at `gamejam-notice/gamejam-notice.github.io`, and `https://gamejam-notice.github.io/` is deployed from the `site/` directory through GitHub Actions. The first populated run completed on 2026-06-26 with 160 tracked jam records; the next step is to install the daily local schedule.
+The repository is being refined into a high-signal online game jam radar. The public website is the main display surface, while the local scheduled task owns daily discovery and static data updates. Confirmed eligible jams require online participation evidence and at least 100 submitted games; upcoming high-influence jams may appear as watchlist candidates until submission counts are available.
 
 ## Constraints
 
