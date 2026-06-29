@@ -22,6 +22,8 @@ Check these fixed sources first:
 - https://itch.io/jams/starting-this-week
 - https://itch.io/jams/starting-this-month
 - https://itch.io/jams/in-progress
+- https://itch.io/jams/in-progress/sort-submissions
+- https://itch.io/jams/past/sort-submissions
 - https://globalgamejam.org/
 - https://globalgamejam.org/jam-sites/2026
 - https://ludumdare.com/
@@ -52,12 +54,27 @@ Normalize each jam into this shape:
 - `status`
 - `tags`
 - `participants`
+- `submitted_games_count`
+- `submission_count_source`
+- `online_status`
+- `online_evidence`
+- `qualification_status`
+- `qualification_reasons`
+- `series_key`
+- `previous_edition_submissions`
 - `host`
 - `discovered_at`
 - `last_seen_at`
 
 Times must be ISO 8601 strings with `+08:00` when a precise time is available. Use `null` when a field is unknown.
 `status` must be one of `upcoming`, `active`, `ended`, or `unknown`. Use `active` for jams that a source labels as in progress.
+`online_status` must be one of `confirmed_online`, `likely_online`, `offline_or_local_only`, or `unknown`.
+`qualification_status` must be one of `confirmed`, `watchlist`, `rejected`, or `unknown`.
+`qualification_reasons` must be an array of concise strings.
+
+Confirmed eligible jams must have public online or remote participation evidence and `submitted_games_count >= 100`.
+Do not treat `participants` or `joined` as submitted games.
+Upcoming jams usually belong in `watchlist` rather than `confirmed` unless a source already exposes a qualifying submitted game count. Use prior-edition submissions, major recurring organizer evidence, or high current interest as watchlist reasons.
 
 Deduplicate by canonical URL first, then by normalized title plus date range.
 
@@ -78,7 +95,8 @@ The report must include:
 - Run time in `Asia/Shanghai`.
 - New jams discovered.
 - Existing jams with material changes.
-- Notable upcoming jams worth attention.
+- Confirmed eligible jams.
+- Watchlist jams worth attention.
 - Source failures or low-confidence observations.
 - Source links for each finding.
 

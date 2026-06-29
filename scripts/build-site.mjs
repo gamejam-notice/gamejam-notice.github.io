@@ -73,14 +73,18 @@ async function listReports() {
 function normalizeState(state) {
   const jams = Array.isArray(state.jams) ? state.jams : [];
   const lastRunAt = state.last_run_at ?? state.metadata?.run_started_at ?? null;
+  const publicJams = jams.filter((jam) => ["confirmed", "watchlist"].includes(jam.qualification_status));
   return {
-    schema_version: state.schema_version ?? 1,
+    schema_version: state.schema_version ?? 2,
     last_run_at: lastRunAt,
     generated_at: beijingTimestamp(),
     totals: {
       jams: jams.length,
+      public_jams: publicJams.length,
+      confirmed: jams.filter((jam) => jam.qualification_status === "confirmed").length,
+      watchlist: jams.filter((jam) => jam.qualification_status === "watchlist").length,
       upcoming: jams.filter((jam) => jam.status === "upcoming").length,
-      active: jams.filter((jam) => jam.status === "active").length,
+      active: publicJams.filter((jam) => jam.status === "active").length,
       sources: new Set(jams.map((jam) => jam.source).filter(Boolean)).size,
     },
     jams,
@@ -106,8 +110,9 @@ function formatRunMeta(value) {
 async function updateIndexPlaceholders(state) {
   let html = await fs.readFile(siteIndexPath, "utf8");
   const replacements = [
-    ["metric-total", state.totals.jams],
-    ["metric-upcoming", state.totals.upcoming],
+    ["metric-total", state.totals.public_jams],
+    ["metric-confirmed", state.totals.confirmed],
+    ["metric-watchlist", state.totals.watchlist],
     ["metric-active", state.totals.active],
     ["metric-sources", state.totals.sources],
     ["run-meta", formatRunMeta(state.last_run_at)],

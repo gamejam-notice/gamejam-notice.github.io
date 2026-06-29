@@ -4,12 +4,13 @@ const reportsUrl = "./data/reports.json";
 const els = {
   runMeta: document.querySelector("#run-meta"),
   total: document.querySelector("#metric-total"),
-  upcoming: document.querySelector("#metric-upcoming"),
+  confirmed: document.querySelector("#metric-confirmed"),
+  watchlist: document.querySelector("#metric-watchlist"),
   active: document.querySelector("#metric-active"),
-  sources: document.querySelector("#metric-sources"),
   grid: document.querySelector("#jam-grid"),
   empty: document.querySelector("#empty-state"),
   search: document.querySelector("#search"),
+  qualification: document.querySelector("#qualification-filter"),
   status: document.querySelector("#status-filter"),
   listMeta: document.querySelector("#list-meta"),
   reports: document.querySelector("#report-list"),
@@ -32,6 +33,13 @@ const statusRank = {
   upcoming: 1,
   unknown: 2,
   ended: 3,
+};
+
+const qualificationRank = {
+  confirmed: 0,
+  watchlist: 1,
+  unknown: 2,
+  rejected: 3,
 };
 
 function escapeHtml(value) {
@@ -62,6 +70,7 @@ function getTimestamp(value) {
 
 function summarizeJam(jam) {
   if (jam.notes) return jam.notes;
+  if (jam.qualification_reasons?.length) return jam.qualification_reasons[0];
   if (jam.submission_deadline && jam.submission_deadline !== jam.ends_at) {
     return `Submission deadline: ${formatTime(jam.submission_deadline)}.`;
   }
@@ -71,6 +80,7 @@ function summarizeJam(jam) {
 
 function matchesFilter(jam) {
   const query = els.search.value.trim().toLowerCase();
+  const qualification = els.qualification.value;
   const status = els.status.value;
   const text = [
     jam.title,
@@ -78,17 +88,30 @@ function matchesFilter(jam) {
     jam.source,
     jam.notes,
     jam.status,
+    jam.qualification_status,
+    jam.online_status,
+    jam.online_evidence,
+    ...(jam.qualification_reasons ?? []),
     ...(jam.tags ?? []),
   ]
     .join(" ")
     .toLowerCase();
-  return (status === "all" || jam.status === status) && (!query || text.includes(query));
+  const matchesQualification =
+    qualification === "all" ||
+    jam.qualification_status === qualification ||
+    (qualification === "public" && ["confirmed", "watchlist"].includes(jam.qualification_status));
+  return matchesQualification && (status === "all" || jam.status === status) && (!query || text.includes(query));
 }
 
 function renderJams() {
   const visible = jams
     .filter(matchesFilter)
     .sort((a, b) => {
+      const qualificationDelta =
+        (qualificationRank[a.qualification_status] ?? 4) - (qualificationRank[b.qualification_status] ?? 4);
+      if (qualificationDelta) return qualificationDelta;
+      const submissionsDelta = (b.submitted_games_count || 0) - (a.submitted_games_count || 0);
+      if (submissionsDelta) return submissionsDelta;
       const rankDelta = (statusRank[a.status] ?? 4) - (statusRank[b.status] ?? 4);
       if (rankDelta) return rankDelta;
       return getTimestamp(a.starts_at) - getTimestamp(b.starts_at);
@@ -100,25 +123,42 @@ function renderJams() {
       const tags = (jam.tags ?? []).slice(0, 4);
       const url = jam.url ?? "#";
       const status = jam.status ?? "unknown";
+      const qualification = jam.qualification_status ?? "unknown";
+      const submissions =
+        jam.submitted_games_count == null
+          ? "Submissions unavailable"
+          : `${jam.submitted_games_count.toLocaleString()} submissions`;
+      const participants =
+        jam.participants == null ? "Joined count unavailable" : `${jam.participants.toLocaleString()} joined`;
+      const prior =
+        jam.previous_edition_submissions == null
+          ? ""
+          : `<span class="tag evidence-tag">${escapeHtml(jam.previous_edition_submissions.toLocaleString())} prior submissions</span>`;
       return `
         <article class="jam-card">
           <div class="jam-card__top">
             <h3><a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(jam.title ?? "Untitled jam")}</a></h3>
-            <span class="status ${escapeHtml(toClassName(status))}">${escapeHtml(status)}</span>
+            <div class="badges">
+              <span class="qualification ${escapeHtml(toClassName(qualification))}">${escapeHtml(qualification)}</span>
+              <span class="status ${escapeHtml(toClassName(status))}">${escapeHtml(status)}</span>
+            </div>
           </div>
           <p class="jam-summary">${escapeHtml(summarizeJam(jam))}</p>
           <dl class="meta-list">
             <div><dt>Starts</dt><dd>${escapeHtml(formatTime(jam.starts_at))}</dd></div>
             <div><dt>Ends</dt><dd>${escapeHtml(formatTime(jam.ends_at))}</dd></div>
+            <div><dt>Submitted</dt><dd>${escapeHtml(submissions)}</dd></div>
+            <div><dt>Online</dt><dd>${escapeHtml((jam.online_status ?? "unknown").replaceAll("_", " "))}</dd></div>
             <div><dt>Host</dt><dd>${escapeHtml(jam.host ?? "Unknown")}</dd></div>
             <div><dt>Source</dt><dd>${escapeHtml(jam.source ?? "Unknown")}</dd></div>
           </dl>
           <div class="tags">
             ${jam.source ? `<span class="tag source-tag">${escapeHtml(jam.source)}</span>` : ""}
+            ${prior}
             ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
           </div>
           <div class="jam-card__footer">
-            <span class="participants">${jam.participants ? `${escapeHtml(jam.participants)} participants` : "Participant count unavailable"}</span>
+            <span class="participants">${escapeHtml(participants)}</span>
             <a class="open-link" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">Open jam</a>
           </div>
         </article>
@@ -188,10 +228,13 @@ const [state, reportData] = await Promise.all([
 
 if (state) {
   jams = Array.isArray(state.jams) ? state.jams : [];
-  els.total.textContent = state.totals?.jams ?? jams.length;
-  els.upcoming.textContent = state.totals?.upcoming ?? jams.filter((jam) => jam.status === "upcoming").length;
+  els.total.textContent =
+    state.totals?.public_jams ?? jams.filter((jam) => ["confirmed", "watchlist"].includes(jam.qualification_status)).length;
+  els.confirmed.textContent =
+    state.totals?.confirmed ?? jams.filter((jam) => jam.qualification_status === "confirmed").length;
+  els.watchlist.textContent =
+    state.totals?.watchlist ?? jams.filter((jam) => jam.qualification_status === "watchlist").length;
   els.active.textContent = state.totals?.active ?? jams.filter((jam) => jam.status === "active").length;
-  els.sources.textContent = state.totals?.sources ?? new Set(jams.map((jam) => jam.source).filter(Boolean)).size;
   els.runMeta.textContent = state.last_run_at
     ? `Last scan: ${formatTime(state.last_run_at)}`
     : "Waiting for the first local Codex scan.";
@@ -204,4 +247,5 @@ renderReports(reportData.reports ?? []);
 renderSourceNotes(state ?? { source_failures: [] });
 
 els.search.addEventListener("input", renderJams);
+els.qualification.addEventListener("change", renderJams);
 els.status.addEventListener("change", renderJams);

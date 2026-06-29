@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const statePath = path.resolve(ROOT, process.argv[2] || "data/game-jams/state.json");
 const allowedStatuses = new Set(["upcoming", "active", "ended", "unknown"]);
+const allowedOnlineStatuses = new Set(["confirmed_online", "likely_online", "offline_or_local_only", "unknown"]);
+const allowedQualificationStatuses = new Set(["confirmed", "watchlist", "rejected", "unknown"]);
 const requiredFields = [
   "title",
   "source",
@@ -16,6 +18,14 @@ const requiredFields = [
   "status",
   "tags",
   "participants",
+  "submitted_games_count",
+  "submission_count_source",
+  "online_status",
+  "online_evidence",
+  "qualification_status",
+  "qualification_reasons",
+  "series_key",
+  "previous_edition_submissions",
   "host",
   "discovered_at",
   "last_seen_at",
@@ -51,12 +61,30 @@ if (!Array.isArray(state.jams)) {
         `jams[${index}] ${jam.title || "<untitled>"} has invalid status ${JSON.stringify(jam.status)}`,
       );
     }
+    if (!allowedOnlineStatuses.has(jam.online_status)) {
+      errors.push(
+        `jams[${index}] ${jam.title || "<untitled>"} has invalid online_status ${JSON.stringify(jam.online_status)}`,
+      );
+    }
+    if (!allowedQualificationStatuses.has(jam.qualification_status)) {
+      errors.push(
+        `jams[${index}] ${jam.title || "<untitled>"} has invalid qualification_status ${JSON.stringify(jam.qualification_status)}`,
+      );
+    }
     for (const field of ["starts_at", "ends_at", "submission_deadline", "discovered_at", "last_seen_at"]) {
       if (!isBeijingIso(jam[field])) {
         errors.push(`jams[${index}] ${jam.title || "<untitled>"} has invalid ${field}: ${jam[field]}`);
       }
     }
     if (!Array.isArray(jam.tags)) errors.push(`jams[${index}] ${jam.title || "<untitled>"} tags must be an array`);
+    if (!Array.isArray(jam.qualification_reasons)) {
+      errors.push(`jams[${index}] ${jam.title || "<untitled>"} qualification_reasons must be an array`);
+    }
+    for (const field of ["participants", "submitted_games_count", "previous_edition_submissions"]) {
+      if (jam[field] != null && (!Number.isInteger(jam[field]) || jam[field] < 0)) {
+        errors.push(`jams[${index}] ${jam.title || "<untitled>"} ${field} must be a non-negative integer or null`);
+      }
+    }
   });
 }
 

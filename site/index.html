@@ -24,11 +24,11 @@
       <section class="hero">
         <div class="hero__content">
           <p class="eyebrow">Daily Codex scan</p>
-          <h1>Game jam scouting, refreshed every morning.</h1>
-          <p class="lede">A compact radar for upcoming and active jams, built from public sources and refreshed by a local Codex research run.</p>
+          <h1>Online game jams with real traction.</h1>
+          <p class="lede">A compact radar for confirmed online jams with at least 100 submitted games, plus high-signal upcoming candidates from the daily local Codex run.</p>
           <div class="hero__actions">
             <a class="primary-link" href="#jams">Browse jams</a>
-            <span class="hero__meta" id="run-meta">Last scan: 2026-06-26 22:18:00 Asia/Shanghai</span>
+            <span class="hero__meta" id="run-meta">Last scan: 2026-06-29 17:24:40 Asia/Shanghai</span>
           </div>
         </div>
         <div class="hero__visual" aria-hidden="true">
@@ -54,34 +54,43 @@
 
       <section class="metrics" aria-label="Game jam summary">
         <article>
-          <p>Tracked jams</p>
-          <span id="metric-total">160</span>
+          <p>Public radar</p>
+          <span id="metric-total">69</span>
         </article>
         <article>
-          <p>Upcoming</p>
-          <span id="metric-upcoming">109</span>
+          <p>Confirmed</p>
+          <span id="metric-confirmed">62</span>
+        </article>
+        <article>
+          <p>Watchlist</p>
+          <span id="metric-watchlist">7</span>
         </article>
         <article>
           <p>Active now</p>
-          <span id="metric-active">51</span>
-        </article>
-        <article>
-          <p>Sources</p>
-          <span id="metric-sources">2</span>
+          <span id="metric-active">12</span>
         </article>
       </section>
 
       <section class="workspace" id="jams">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Watchlist</p>
-            <h2>Tracked Jams</h2>
-            <p class="section-copy">Search the latest normalized jam records. Times are displayed in Asia/Shanghai.</p>
+            <p class="eyebrow">Qualified radar</p>
+            <h2>Confirmed And Watchlist Jams</h2>
+            <p class="section-copy">Search generated jam records from the scheduled task. Confirmed jams meet the online and 100-submission threshold; watchlist jams need future submission evidence.</p>
           </div>
           <div class="controls">
             <label>
               <span>Search</span>
               <input id="search" type="search" placeholder="Title, host, source, tag">
+            </label>
+            <label>
+              <span>Qualification</span>
+              <select id="qualification-filter" aria-label="Qualification filter">
+                <option value="public">Confirmed + watchlist</option>
+                <option value="confirmed">Confirmed</option>
+                <option value="watchlist">Watchlist</option>
+                <option value="all">All records</option>
+              </select>
             </label>
             <label>
               <span>Status</span>

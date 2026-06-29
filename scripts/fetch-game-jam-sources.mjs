@@ -46,6 +46,20 @@ const FIXED_SOURCES = [
     parser: "itch",
   },
   {
+    name: "itch.io in progress most submissions",
+    source: "itch.io",
+    url: "https://itch.io/jams/in-progress/sort-submissions",
+    status: "active",
+    parser: "itch",
+  },
+  {
+    name: "itch.io past most submissions",
+    source: "itch.io",
+    url: "https://itch.io/jams/past/sort-submissions",
+    status: "ended",
+    parser: "itch",
+  },
+  {
     name: "Global Game Jam home",
     source: "Global Game Jam",
     url: "https://globalgamejam.org/",
@@ -143,6 +157,89 @@ function parseParticipantCount(value) {
   return Math.round(number * multiplier);
 }
 
+function parseItchMetric(segment, label) {
+  const statBlocks = [
+    ...segment.matchAll(/<(?:div|a)\b[^>]*class=["'][^"']*\bstat\b[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|a)>/gi),
+  ];
+  for (const statBlock of statBlocks) {
+    const text = stripHtml(statBlock[1]).toLowerCase();
+    if (!text.includes(label)) continue;
+    const number = statBlock[1].match(/<span\b[^>]*class=["']number["'][^>]*>([\s\S]*?)<\/span>/i)?.[1];
+    return parseParticipantCount(number || "");
+  }
+
+  const fallback = segment.match(
+    new RegExp(`<span\\b[^>]*class=["']number["'][^>]*>([\\s\\S]*?)<\\/span>\\s*${label}`, "i"),
+  )?.[1];
+  return parseParticipantCount(fallback || "");
+}
+
+function normalizeSeriesKey(title) {
+  const text = stripHtml(title)
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/\b(19|20)\d{2}\b/g, " ")
+    .replace(/\b(jam|game|games)\b/g, " ")
+    .replace(/\bseason\s*\d+\b/g, " ")
+    .replace(/\bvol(?:ume)?\.?\s*\d+\b/g, " ")
+    .replace(/\bepisode\s*\d+\b/g, " ")
+    .replace(/\b\d+(?:st|nd|rd|th)?\b/g, " ")
+    .replace(/#[\w-]+/g, " ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+
+  return text || null;
+}
+
+function buildQualification(item, previousEditionSubmissions = null) {
+  const reasons = [];
+  const onlineStatus = item.online_status || "unknown";
+  const submittedGamesCount = item.submitted_games_count ?? null;
+
+  if (onlineStatus === "confirmed_online") {
+    reasons.push("Public itch.io jam page supports online submissions.");
+  }
+  if (submittedGamesCount != null) {
+    reasons.push(`${submittedGamesCount} submitted games observed from ${item.submission_count_source || item.observed_from}.`);
+  }
+  if (previousEditionSubmissions != null) {
+    reasons.push(`Recent related edition reached ${previousEditionSubmissions} submitted games.`);
+  }
+  if ((item.participants ?? 0) >= 500) {
+    reasons.push(`${item.participants} participants joined before submissions were available.`);
+  }
+
+  if (onlineStatus === "confirmed_online" && submittedGamesCount >= 100) {
+    return { qualification_status: "confirmed", qualification_reasons: reasons };
+  }
+
+  if (
+    item.status === "upcoming" &&
+    onlineStatus === "confirmed_online" &&
+    ((item.participants ?? 0) >= 500 || (previousEditionSubmissions ?? 0) >= 100)
+  ) {
+    return {
+      qualification_status: "watchlist",
+      qualification_reasons: reasons.length
+        ? reasons
+        : ["Upcoming jam has enough influence evidence to monitor before submissions open."],
+    };
+  }
+
+  if (submittedGamesCount != null && submittedGamesCount < 100) {
+    return {
+      qualification_status: "rejected",
+      qualification_reasons: [...reasons, "Submitted game count is below the 100-game threshold."],
+    };
+  }
+
+  return {
+    qualification_status: "unknown",
+    qualification_reasons: reasons.length ? reasons : ["Insufficient evidence for qualification."],
+  };
+}
+
 function parseDurationMs(duration) {
   const text = String(duration || "").toLowerCase();
   if (/\b(month|months|year|years)\b/.test(text)) {
@@ -228,8 +325,9 @@ function parseItchJams(html, sourceConfig) {
       startsDate && durationMs && !Number.isNaN(startsDate.getTime())
         ? new Date(startsDate.getTime() + durationMs)
         : null;
-    const participantText =
-      segment.match(/<span\b[^>]*class=["']number["'][^>]*>([\s\S]*?)<\/span>\s*joined/i)?.[1] || "";
+    const participants = parseItchMetric(segment, "joined");
+    const submittedGamesCount = parseItchMetric(segment, "submissions");
+    const seriesKey = normalizeSeriesKey(title);
 
     jams.push({
       title,
@@ -240,7 +338,15 @@ function parseItchJams(html, sourceConfig) {
       submission_deadline: null,
       status: sourceConfig.status,
       tags: [],
-      participants: parseParticipantCount(participantText),
+      participants,
+      submitted_games_count: submittedGamesCount,
+      submission_count_source: submittedGamesCount == null ? null : sourceConfig.url,
+      online_status: "confirmed_online",
+      online_evidence: "Public itch.io jam page uses itch.io's online jam submission system.",
+      qualification_status: "unknown",
+      qualification_reasons: [],
+      series_key: seriesKey,
+      previous_edition_submissions: null,
       host,
       duration: duration || null,
       ranked: /<div class=["']jam_ranked["']/.test(segment),
@@ -327,8 +433,17 @@ function mergeNormalizedJams(sources, fetchedAt) {
       if (existing) {
         existing.observed_from = [...new Set([...existing.observed_from, item.observed_from])];
         existing.participants = Math.max(existing.participants || 0, item.participants || 0) || null;
+        existing.submitted_games_count =
+          Math.max(existing.submitted_games_count || 0, item.submitted_games_count || 0) || null;
+        if (!existing.submission_count_source && item.submission_count_source) {
+          existing.submission_count_source = item.submission_count_source;
+        }
         if (existing.status !== "active" && item.status === "active") existing.status = "active";
+        if (existing.status !== "active" && existing.status !== "upcoming" && item.status === "upcoming") {
+          existing.status = "upcoming";
+        }
         if (!existing.ends_at && item.ends_at) existing.ends_at = item.ends_at;
+        if (!existing.series_key && item.series_key) existing.series_key = item.series_key;
         continue;
       }
 
@@ -342,6 +457,14 @@ function mergeNormalizedJams(sources, fetchedAt) {
         status: item.status,
         tags: item.tags,
         participants: item.participants,
+        submitted_games_count: item.submitted_games_count,
+        submission_count_source: item.submission_count_source,
+        online_status: item.online_status,
+        online_evidence: item.online_evidence,
+        qualification_status: item.qualification_status,
+        qualification_reasons: item.qualification_reasons,
+        series_key: item.series_key,
+        previous_edition_submissions: item.previous_edition_submissions,
         host: item.host,
         discovered_at: fetchedAt,
         last_seen_at: fetchedAt,
@@ -352,7 +475,30 @@ function mergeNormalizedJams(sources, fetchedAt) {
     }
   }
 
+  const pastSubmissionsBySeries = new Map();
+  for (const jam of byUrl.values()) {
+    if (!jam.series_key || jam.status !== "ended" || !jam.submitted_games_count) continue;
+    pastSubmissionsBySeries.set(
+      jam.series_key,
+      Math.max(pastSubmissionsBySeries.get(jam.series_key) || 0, jam.submitted_games_count),
+    );
+  }
+
+  for (const jam of byUrl.values()) {
+    const previousEditionSubmissions =
+      jam.status === "upcoming" && jam.series_key ? pastSubmissionsBySeries.get(jam.series_key) || null : null;
+    jam.previous_edition_submissions = previousEditionSubmissions;
+    Object.assign(jam, buildQualification(jam, previousEditionSubmissions));
+  }
+
   return [...byUrl.values()].sort((left, right) => {
+    const qualificationRank = { confirmed: 0, watchlist: 1, unknown: 2, rejected: 3 };
+    const rankDelta =
+      (qualificationRank[left.qualification_status] ?? 4) -
+      (qualificationRank[right.qualification_status] ?? 4);
+    if (rankDelta) return rankDelta;
+    const submissionsDelta = (right.submitted_games_count || 0) - (left.submitted_games_count || 0);
+    if (submissionsDelta) return submissionsDelta;
     const leftTime = left.starts_at || "";
     const rightTime = right.starts_at || "";
     return leftTime.localeCompare(rightTime) || left.title.localeCompare(right.title);

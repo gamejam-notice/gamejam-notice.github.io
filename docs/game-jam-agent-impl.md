@@ -4,6 +4,8 @@
 
 The repository currently implements the first version as a local scheduled Codex runner plus a GitHub Pages static website. The local runner researches public game jam sources, updates repository-local state, builds website data, commits the changes, and pushes them. GitHub Pages deploys the static site from the `site/` directory after those changes reach GitHub. The first populated run on 2026-06-26 wrote 160 tracked jam records.
 
+As of 2026-06-29, the `feat/qualified-game-jams` worktree contains an uncommitted qualified-radar update with 226 normalized itch.io jam records, including 62 confirmed records and 7 watchlist records for the public dashboard. The generated site data validates locally, but the change still needs to be committed, merged or otherwise applied to `main`, and pushed before the production Pages site reflects the qualified-radar view.
+
 ## Files
 
 - `scripts/run-local-game-jam-agent.sh`: invokes Codex, builds website data, commits changed data/reports/site output, and pushes to `origin`.
@@ -50,6 +52,10 @@ The production repository is `gamejam-notice/gamejam-notice.github.io`. It is pu
 8. The runner commits changed data, reports, and website data, then pushes to `origin`.
 9. GitHub Actions deploys `site/` to GitHub Pages.
 
+## Local Schedule State
+
+The user-level `launchd` job label is `com.codex.game-jam-agent`. On 2026-06-29 it was installed and loaded, but it pointed at `/Users/haha/Documents/Codex/2026-06-26-game-jam-game-jam-codex-agent`, the `main` worktree, not the `feat/qualified-game-jams` worktree. The scheduled job should continue to point at the long-lived `main` worktree after the qualified-radar changes land there. If the final production worktree changes, rerun `scripts/install-launchd.sh` from the desired repository path so the plist working directory, program path, and log paths match.
+
 ## Current Limitations
 
 - Fixed-source extraction has deterministic itch.io support, while Global Game Jam, Ludum Dare, and Indie Game Jams snapshots currently store generic page summaries rather than full normalized jam records.
@@ -60,4 +66,4 @@ The production repository is `gamejam-notice/gamejam-notice.github.io`. It is pu
 
 ## Next Implementation Step
 
-Install the daily schedule with `scripts/install-launchd.sh` after confirming the published site and first report remain useful. The schedule runs `scripts/run-local-game-jam-agent.sh` at 09:00 local time on this Mac.
+Finish the qualified-radar handoff: review and commit the uncommitted qualified-radar changes, apply them to `main`, push to `origin`, confirm the GitHub Pages deployment, and then verify the next 09:00 `launchd` run updates the same production worktree without leaving the repository dirty.

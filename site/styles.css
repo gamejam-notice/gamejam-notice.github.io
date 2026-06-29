@@ -416,7 +416,7 @@ h2 {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(230px, 320px) minmax(150px, 180px);
+  grid-template-columns: minmax(220px, 300px) minmax(150px, 190px) minmax(150px, 180px);
   gap: 10px;
   align-items: end;
 }
@@ -479,7 +479,7 @@ select {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   gap: 13px;
-  min-height: 310px;
+  min-height: 380px;
   padding: 17px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -515,7 +515,14 @@ select {
   color: var(--blue);
 }
 
-.status {
+.badges {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+}
+
+.status,
+.qualification {
   min-width: 72px;
   padding: 6px 8px;
   border: 1px solid rgba(20, 125, 116, 0.24);
@@ -526,6 +533,31 @@ select {
   font-weight: 850;
   text-align: center;
   text-transform: capitalize;
+}
+
+.qualification {
+  border-color: rgba(49, 95, 189, 0.24);
+  background: rgba(49, 95, 189, 0.12);
+  color: #254f9f;
+}
+
+.qualification.confirmed {
+  border-color: rgba(20, 125, 116, 0.28);
+  background: rgba(20, 125, 116, 0.13);
+  color: #09645d;
+}
+
+.qualification.watchlist {
+  border-color: rgba(217, 154, 31, 0.28);
+  background: rgba(217, 154, 31, 0.16);
+  color: #69470a;
+}
+
+.qualification.rejected,
+.qualification.unknown {
+  border-color: rgba(101, 112, 122, 0.2);
+  background: rgba(101, 112, 122, 0.11);
+  color: #566069;
 }
 
 .status.active {
@@ -596,6 +628,11 @@ select {
 .tag.source-tag {
   background: rgba(49, 95, 189, 0.12);
   color: #254f9f;
+}
+
+.tag.evidence-tag {
+  background: rgba(20, 125, 116, 0.12);
+  color: #09645d;
 }
 
 .jam-card__footer {
@@ -694,7 +731,7 @@ select {
   }
 
   .controls {
-    grid-template-columns: 1fr 180px;
+    grid-template-columns: 1fr 180px 180px;
   }
 
   .metrics,
@@ -804,8 +841,13 @@ select {
     grid-template-columns: 1fr;
   }
 
-  .status {
+  .status,
+  .qualification {
     width: fit-content;
+  }
+
+  .badges {
+    justify-items: start;
   }
 
   .meta-list div {

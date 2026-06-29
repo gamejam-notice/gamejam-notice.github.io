@@ -21,7 +21,7 @@ This project designs and implements a local Codex-based daily research agent for
 
 ## Current Status
 
-The repository is being refined into a high-signal online game jam radar. The public website is the main display surface, while the local scheduled task owns daily discovery and static data updates. Confirmed eligible jams require online participation evidence and at least 100 submitted games; upcoming high-influence jams may appear as watchlist candidates until submission counts are available.
+The repository is being refined into a high-signal online game jam radar. The `feat/qualified-game-jams` worktree has a locally validated qualified-radar update, but it still needs to be committed, applied to `main`, pushed, and observed through the next scheduled run. See `docs/game-jam-agent-impl.md` for the current handoff and local schedule state.
 
 ## Constraints
 
