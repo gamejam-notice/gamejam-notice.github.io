@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "last_run_at": "2026-06-29T17:24:40+08:00",
-  "generated_at": "2026-06-29T19:05:45+08:00",
+  "last_run_at": "2026-06-30T09:04:13+08:00",
+  "generated_at": "2026-06-30T09:05:03+08:00",
   "totals": {
-    "jams": 226,
-    "public_jams": 69,
+    "jams": 228,
+    "public_jams": 71,
     "confirmed": 62,
-    "watchlist": 7,
+    "watchlist": 9,
     "upcoming": 102,
     "active": 12,
     "sources": 1
@@ -36,7 +36,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -67,7 +67,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -98,7 +98,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -129,7 +129,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -160,7 +160,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -191,7 +191,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -208,21 +208,21 @@
       "status": "ended",
       "tags": [],
       "participants": 14400,
-      "submitted_games_count": 3554,
+      "submitted_games_count": 3548,
       "submission_count_source": "https://itch.io/jams/past/sort-submissions",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "3554 submitted games observed from https://itch.io/jams/past/sort-submissions.",
+        "3548 submitted games observed from https://itch.io/jams/past/sort-submissions.",
         "14400 participants joined before submissions were available."
       ],
       "series_key": "the-very-serious-juniper-dev",
       "previous_edition_submissions": null,
       "host": "Juniper Dev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -238,22 +238,22 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 4585,
-      "submitted_games_count": 2683,
+      "participants": 4586,
+      "submitted_games_count": 2684,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "2683 submitted games observed from https://itch.io/jams/in-progress.",
-        "4585 participants joined before submissions were available."
+        "2684 submitted games observed from https://itch.io/jams/in-progress.",
+        "4586 participants joined before submissions were available."
       ],
       "series_key": "decade",
       "previous_edition_submissions": null,
       "host": "James Earl Cox III , Avis , fedetibaldo",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -285,7 +285,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -316,7 +316,7 @@
       "previous_edition_submissions": null,
       "host": "Pirate Software",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -347,7 +347,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , AquaXV , Duxez , Yasahiro",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -378,7 +378,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , Duxez , AquaXV , Yasahiro",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -409,7 +409,7 @@
       "previous_edition_submissions": null,
       "host": "Yilian , hucota7 , AquaXV , Duxez , TheDutchMagikarp , CodeMyst , Brackeys",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -440,7 +440,7 @@
       "previous_edition_submissions": null,
       "host": "Yilian , TheDutchMagikarp , AquaXV , CodeMyst , Duxez , hucota7",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -471,7 +471,7 @@
       "previous_edition_submissions": null,
       "host": "Pirate Software",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -502,7 +502,7 @@
       "previous_edition_submissions": null,
       "host": "CodeMyst , TheDutchMagikarp , Yilian , hucota7 , Brackeys , Duxez , AquaXV",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -533,7 +533,7 @@
       "previous_edition_submissions": null,
       "host": "CodeMyst , TheDutchMagikarp , Yilian , Brackeys , Duxez , AquaXV",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -564,7 +564,7 @@
       "previous_edition_submissions": null,
       "host": "jesthehuman",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -595,7 +595,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , Yasahiro , AquaXV , Duxez",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -626,7 +626,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , Yasahiro , AquaXV , Duxez",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -657,7 +657,7 @@
       "previous_edition_submissions": null,
       "host": "itch.io , leafo",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -688,7 +688,7 @@
       "previous_edition_submissions": null,
       "host": "Ducky Dev , jacksepticey",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -719,7 +719,7 @@
       "previous_edition_submissions": null,
       "host": "Shovel",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -750,7 +750,7 @@
       "previous_edition_submissions": null,
       "host": "Caro Asercion , Everest Pipkin , itch.io",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -781,7 +781,7 @@
       "previous_edition_submissions": null,
       "host": "TimRuswick , gamedevtv",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -812,7 +812,7 @@
       "previous_edition_submissions": null,
       "host": "CodeMyst , TheDutchMagikarp , Brackeys , AquaXV , Duxez , Yilian",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -843,7 +843,7 @@
       "previous_edition_submissions": null,
       "host": "Blackthornprod Games",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -874,7 +874,7 @@
       "previous_edition_submissions": null,
       "host": "gamedevtv",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -905,7 +905,7 @@
       "previous_edition_submissions": null,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -921,22 +921,22 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 751,
-      "submitted_games_count": 959,
+      "participants": 752,
+      "submitted_games_count": 960,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "959 submitted games observed from https://itch.io/jams/in-progress.",
-        "751 participants joined before submissions were available."
+        "960 submitted games observed from https://itch.io/jams/in-progress.",
+        "752 participants joined before submissions were available."
       ],
       "series_key": "lab",
       "previous_edition_submissions": null,
       "host": "socialnetworkgames",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -968,7 +968,7 @@
       "previous_edition_submissions": null,
       "host": "Jonas Tyroller",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -999,7 +999,7 @@
       "previous_edition_submissions": null,
       "host": "Jonas Tyroller",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1030,7 +1030,7 @@
       "previous_edition_submissions": null,
       "host": "TimRuswick , Yang Pulse , gamedevtv , AvocadoFire",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1061,7 +1061,7 @@
       "previous_edition_submissions": null,
       "host": "CodeMyst , Duxez , TheDutchMagikarp , Yilian , AquaXV , Brackeys , Dani , Blackthornprod Games , Sykoo",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1092,7 +1092,7 @@
       "previous_edition_submissions": null,
       "host": "SCREAM ZONE",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1123,7 +1123,7 @@
       "previous_edition_submissions": null,
       "host": "Acerola",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1154,7 +1154,7 @@
       "previous_edition_submissions": null,
       "host": "TimRuswick , Yang Pulse , gamedevtv",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1185,7 +1185,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , Yasahiro , Duxez , AquaXV",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1216,7 +1216,7 @@
       "previous_edition_submissions": null,
       "host": "FartFish , 🕹️swagshaw",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1247,7 +1247,7 @@
       "previous_edition_submissions": null,
       "host": "gamedevtv",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1278,7 +1278,7 @@
       "previous_edition_submissions": null,
       "host": "BIGMODEsean",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1308,7 +1308,7 @@
       "previous_edition_submissions": null,
       "host": "Rolerøs No Representativøs",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1339,7 +1339,7 @@
       "previous_edition_submissions": null,
       "host": "nathancity01",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1371,7 +1371,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , AquaXV , Yasahiro , Duxez",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1402,7 +1402,7 @@
       "previous_edition_submissions": null,
       "host": "Brackeys , AquaXV , Yasahiro , Duxez , TheDutchMagikarp",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1433,7 +1433,7 @@
       "previous_edition_submissions": null,
       "host": "GitHub , Lee Reilly",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1464,7 +1464,7 @@
       "previous_edition_submissions": null,
       "host": "Kenney , Kay Lousberg",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1495,7 +1495,7 @@
       "previous_edition_submissions": null,
       "host": "metc , Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1526,7 +1526,7 @@
       "previous_edition_submissions": null,
       "host": "Unknown Dungeon",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1557,7 +1557,7 @@
       "previous_edition_submissions": null,
       "host": "miziziziz",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1588,7 +1588,7 @@
       "previous_edition_submissions": null,
       "host": "Yilian , AquaXV , Duxez , CodeMyst , hucota7 , TheDutchMagikarp , Brackeys",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1618,7 +1618,7 @@
       "previous_edition_submissions": null,
       "host": "jesthehuman",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1649,7 +1649,7 @@
       "previous_edition_submissions": null,
       "host": "Unknown Dungeon",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/past/sort-submissions"
       ],
@@ -1666,21 +1666,21 @@
       "status": "active",
       "tags": [],
       "participants": 1129,
-      "submitted_games_count": 555,
+      "submitted_games_count": 553,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "555 submitted games observed from https://itch.io/jams/in-progress.",
+        "553 submitted games observed from https://itch.io/jams/in-progress.",
         "1129 participants joined before submissions were available."
       ],
       "series_key": "year-long",
       "previous_edition_submissions": null,
       "host": "Xeight",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1712,7 +1712,7 @@
       "previous_edition_submissions": null,
       "host": "Xavier Ekkel",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1729,22 +1729,22 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 707,
-      "submitted_games_count": 506,
+      "participants": 709,
+      "submitted_games_count": 507,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "506 submitted games observed from https://itch.io/jams/in-progress.",
-        "707 participants joined before submissions were available."
+        "507 submitted games observed from https://itch.io/jams/in-progress.",
+        "709 participants joined before submissions were available."
       ],
       "series_key": "how-long-can-we",
       "previous_edition_submissions": null,
       "host": "Starcharger",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1761,21 +1761,21 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 56,
-      "submitted_games_count": 255,
+      "participants": 63,
+      "submitted_games_count": 263,
       "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "255 submitted games observed from https://itch.io/jams/in-progress/sort-submissions."
+        "263 submitted games observed from https://itch.io/jams/in-progress/sort-submissions."
       ],
       "series_key": "venezuela-earthquake-relief-bundle-creator",
       "previous_edition_submissions": null,
       "host": "Wicked Oni Publishing",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -1805,7 +1805,7 @@
       "previous_edition_submissions": null,
       "host": "Sophie Houlden",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1822,21 +1822,21 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 435,
-      "submitted_games_count": 159,
+      "participants": 438,
+      "submitted_games_count": 162,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "confirmed",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "159 submitted games observed from https://itch.io/jams/in-progress."
+        "162 submitted games observed from https://itch.io/jams/in-progress."
       ],
       "series_key": "women-s-fest",
       "previous_edition_submissions": null,
       "host": "EVERIUM",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1867,7 +1867,7 @@
       "previous_edition_submissions": null,
       "host": "Beau Van Dalen",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -1897,7 +1897,7 @@
       "previous_edition_submissions": null,
       "host": "pixelabor",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -1928,10 +1928,43 @@
       "previous_edition_submissions": null,
       "host": "Nasikla",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Appx. N Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/appx-n-jam-2026",
+      "starts_at": "2026-07-01T12:00:00+08:00",
+      "ends_at": "2026-08-01T12:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 504,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "watchlist",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "504 participants joined before submissions were available."
+      ],
+      "series_key": "appx-n",
+      "previous_edition_submissions": null,
+      "host": "Dank Dungeons",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
       ],
       "ranked": true,
       "featured": false
@@ -1945,7 +1978,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 1109,
+      "participants": 1236,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -1953,13 +1986,13 @@
       "qualification_status": "watchlist",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "1109 participants joined before submissions were available."
+        "1236 participants joined before submissions were available."
       ],
       "series_key": "the-brainless",
       "previous_edition_submissions": null,
       "host": "Brainless.",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -1978,7 +2011,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 125,
+      "participants": 127,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -1992,7 +2025,7 @@
       "previous_edition_submissions": 2312,
       "host": "Pirate Software",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -2009,7 +2042,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 1417,
+      "participants": 1464,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2018,13 +2051,13 @@
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
         "Recent related edition reached 698 submitted games.",
-        "1417 participants joined before submissions were available."
+        "1464 participants joined before submissions were available."
       ],
       "series_key": "kenney",
       "previous_edition_submissions": 698,
       "host": "Kenney , Kay Lousberg",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -2041,7 +2074,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 20600,
+      "participants": 20800,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2050,13 +2083,13 @@
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
         "Recent related edition reached 9448 submitted games.",
-        "20600 participants joined before submissions were available."
+        "20800 participants joined before submissions were available."
       ],
       "series_key": "gmtk",
       "previous_edition_submissions": 9448,
       "host": "Game Maker's Toolkit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -2073,7 +2106,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 6447,
+      "participants": 6528,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2082,13 +2115,13 @@
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
         "Recent related edition reached 2243 submitted games.",
-        "6447 participants joined before submissions were available."
+        "6528 participants joined before submissions were available."
       ],
       "series_key": "brackeys",
       "previous_edition_submissions": 2243,
       "host": "Brackeys , AquaXV , Yasahiro , Duxez",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -2104,7 +2137,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 586,
+      "participants": 597,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2112,13 +2145,13 @@
       "qualification_status": "watchlist",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "586 participants joined before submissions were available."
+        "597 participants joined before submissions were available."
       ],
       "series_key": "gbjam",
       "previous_edition_submissions": null,
       "host": "Polyducks , chasehunter , poltergasm , timconceivable , tatltuae , Traslo , arknano , batfeula",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -2134,7 +2167,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 641,
+      "participants": 643,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2142,140 +2175,17 @@
       "qualification_status": "watchlist",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "641 participants joined before submissions were available."
+        "643 participants joined before submissions were available."
       ],
       "series_key": "ost-composing-newsletter",
       "previous_edition_submissions": null,
       "host": "Lone Rabbit",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
       "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "🗿Fake Update Jam",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/fake-update-jam",
-      "starts_at": "2026-06-29T19:00:00+08:00",
-      "ends_at": "2026-07-02T19:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 37,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "fake-update",
-      "previous_edition_submissions": null,
-      "host": "SomeTimesAtNight",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week",
-        "https://itch.io/jams/starting-this-month"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "Portfolio Builders Jam - Week #79",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/portfolio-builders-jam-week-79",
-      "starts_at": "2026-06-29T19:00:00+08:00",
-      "ends_at": "2026-07-05T19:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 13,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "portfolio-builders-week",
-      "previous_edition_submissions": null,
-      "host": "orlandoo",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week"
-      ],
-      "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "The 52 Card Pickup Jam #1",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/the-52-card-pickup-jam-1",
-      "starts_at": "2026-06-29T19:00:00+08:00",
-      "ends_at": "2026-07-05T19:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 33,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "the-card-pickup",
-      "previous_edition_submissions": null,
-      "host": "elwdev",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week",
-        "https://itch.io/jams/starting-this-month"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "One Game A Week Jam #8",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/8gameaweek",
-      "starts_at": "2026-06-30T00:00:00+08:00",
-      "ends_at": "2026-07-07T00:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 49,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "one-a-week",
-      "previous_edition_submissions": null,
-      "host": "ForgeWalker Studios , jazhikho",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week",
-        "https://itch.io/jams/starting-this-month"
-      ],
-      "ranked": true,
       "featured": false
     },
     {
@@ -2287,7 +2197,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 298,
+      "participants": 305,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2300,7 +2210,7 @@
       "previous_edition_submissions": null,
       "host": "WitPOP",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -2308,6 +2218,35 @@
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Construct French Game Jam 14(#CFGJ14)",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/cfgj14",
+      "starts_at": "2026-07-01T03:00:00+08:00",
+      "ends_at": "2026-09-01T03:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 9,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "construct-french",
+      "previous_edition_submissions": null,
+      "host": "Squale",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -2319,7 +2258,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 10,
+      "participants": 23,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2330,9 +2269,9 @@
       ],
       "series_key": "vgs",
       "previous_edition_submissions": null,
-      "host": "RemoteShift , WildHawk23",
+      "host": "RemoteShift , yehia-ke , WildHawk23 , myth_n0cturne",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2349,7 +2288,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 23,
+      "participants": 28,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2362,10 +2301,11 @@
       "previous_edition_submissions": null,
       "host": "Dorian Blackwood",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week"
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
       ],
       "ranked": false,
       "featured": false
@@ -2379,7 +2319,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 27,
+      "participants": 31,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2392,10 +2332,11 @@
       "previous_edition_submissions": null,
       "host": "W.H. Arthur , Jellyfishlines , Kergan",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week"
+        "https://itch.io/jams/starting-this-week",
+        "https://itch.io/jams/starting-this-month"
       ],
       "ranked": false,
       "featured": false
@@ -2409,7 +2350,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 7,
+      "participants": 12,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2422,9 +2363,10 @@
       "previous_edition_submissions": null,
       "host": "Mouse Potato Does Stuff",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date"
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
       ],
       "ranked": true,
       "featured": false
@@ -2438,7 +2380,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 14,
+      "participants": 15,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2451,7 +2393,7 @@
       "previous_edition_submissions": null,
       "host": "megamitts",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2460,15 +2402,15 @@
       "featured": false
     },
     {
-      "title": "Appx. N Jam 2026",
+      "title": "Accountability Jam: July 2026",
       "source": "itch.io",
-      "url": "https://itch.io/jam/appx-n-jam-2026",
-      "starts_at": "2026-07-01T12:00:00+08:00",
-      "ends_at": "2026-08-01T12:00:00+08:00",
+      "url": "https://itch.io/jam/accountability-jam-july-2026",
+      "starts_at": "2026-07-01T11:59:59+08:00",
+      "ends_at": "2026-08-01T11:59:59+08:00",
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 486,
+      "participants": null,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2477,18 +2419,15 @@
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions."
       ],
-      "series_key": "appx-n",
+      "series_key": "accountability-july",
       "previous_edition_submissions": null,
-      "host": "Dank Dungeons",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "host": "Ulysse",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/upcoming",
-        "https://itch.io/jams/starting-this-week",
-        "https://itch.io/jams/starting-this-month"
+        "https://itch.io/jams/upcoming/sort-date"
       ],
-      "ranked": true,
+      "ranked": false,
       "featured": false
     },
     {
@@ -2513,7 +2452,7 @@
       "previous_edition_submissions": null,
       "host": "d20zinejam",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -2529,7 +2468,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 144,
+      "participants": 166,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2542,7 +2481,7 @@
       "previous_edition_submissions": null,
       "host": "HyperGameDev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -2574,7 +2513,7 @@
       "previous_edition_submissions": null,
       "host": "pinuwuk",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2591,7 +2530,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 79,
+      "participants": 86,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2604,7 +2543,7 @@
       "previous_edition_submissions": null,
       "host": "Blushinmoon",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -2623,7 +2562,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 8,
+      "participants": 9,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2636,7 +2575,7 @@
       "previous_edition_submissions": null,
       "host": "CGBilz",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -2652,7 +2591,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 16,
+      "participants": 17,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2665,7 +2604,7 @@
       "previous_edition_submissions": null,
       "host": "DOOMVEGA",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2682,7 +2621,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 36,
+      "participants": 39,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2695,7 +2634,7 @@
       "previous_edition_submissions": null,
       "host": "treegravy",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
@@ -2726,7 +2665,7 @@
       "previous_edition_submissions": null,
       "host": "Dragon's Isle Software , A Wandering Songbird , DIS Kids",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -2755,7 +2694,7 @@
       "previous_edition_submissions": null,
       "host": "Ericbomb , shiftBacktick , Patricia",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
@@ -2786,7 +2725,7 @@
       "previous_edition_submissions": null,
       "host": "TheCrimsonNight",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2803,7 +2742,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 46,
+      "participants": 54,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2816,7 +2755,7 @@
       "previous_edition_submissions": null,
       "host": "Internet Janitor",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
@@ -2834,7 +2773,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 20,
+      "participants": 24,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2847,7 +2786,7 @@
       "previous_edition_submissions": null,
       "host": "dungeonminister",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2864,7 +2803,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 12,
+      "participants": 15,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2877,7 +2816,7 @@
       "previous_edition_submissions": null,
       "host": "Rowan Sender",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -2894,7 +2833,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 8,
+      "participants": 9,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2907,7 +2846,7 @@
       "previous_edition_submissions": null,
       "host": "Mystery Coconut",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -2923,7 +2862,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 31,
+      "participants": 35,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2936,7 +2875,7 @@
       "previous_edition_submissions": null,
       "host": "InnocentGoblin",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
@@ -2954,7 +2893,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 38,
+      "participants": 39,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2967,13 +2906,42 @@
       "previous_edition_submissions": null,
       "host": "Dreamty Games",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Free Zine Week 2026 - Bundle Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/free-zine-week-2026",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": "2026-08-02T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": null,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "free-zine-week-bundle",
+      "previous_edition_submissions": null,
+      "host": "Beth and Angel Make Games",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
       "featured": false
     },
     {
@@ -2985,7 +2953,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 45,
+      "participants": 50,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -2998,7 +2966,7 @@
       "previous_edition_submissions": null,
       "host": "Sylvie the Dragon Games",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week",
@@ -3016,7 +2984,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 8,
+      "participants": 11,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3029,9 +2997,10 @@
       "previous_edition_submissions": null,
       "host": "SomeTimesAtNight",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date"
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
       ],
       "ranked": true,
       "featured": false
@@ -3045,7 +3014,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 23,
+      "participants": 25,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3058,7 +3027,7 @@
       "previous_edition_submissions": null,
       "host": "librarianmage , soupDilemma",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -3075,7 +3044,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 50,
+      "participants": 56,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3088,9 +3057,10 @@
       "previous_edition_submissions": null,
       "host": "Magikya Studios",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
       ],
@@ -3106,7 +3076,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 15,
+      "participants": 17,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3119,7 +3089,7 @@
       "previous_edition_submissions": null,
       "host": "ErinBrume",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -3136,7 +3106,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 69,
+      "participants": 70,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3149,7 +3119,7 @@
       "previous_edition_submissions": null,
       "host": "Alte",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -3168,7 +3138,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 4,
+      "participants": 5,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3181,7 +3151,7 @@
       "previous_edition_submissions": null,
       "host": "Is@@c",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -3196,26 +3166,31 @@
       "ends_at": "2026-08-11T01:00:00+08:00",
       "submission_deadline": null,
       "status": "upcoming",
-      "tags": [],
-      "participants": 228,
+      "tags": [
+        "global-game-jam-partner"
+      ],
+      "participants": 250,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
+      "online_evidence": "Public itch.io jam page supports online submissions; Global Game Jam partner-jams page describes the jam as a GGJ/IndieCade partner jam.",
+      "qualification_status": "watchlist",
       "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
+        "Public itch.io jam page supports online submissions.",
+        "Global Game Jam lists Climate Jam 2026 as a partner jam with IndieCade.",
+        "250 participants joined before submissions were available."
       ],
       "series_key": "climate-plant-a-seed",
       "previous_edition_submissions": null,
       "host": "IndieCade",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
-        "https://itch.io/jams/starting-this-month"
+        "https://itch.io/jams/starting-this-month",
+        "https://globalgamejam.org/partner-jams"
       ],
       "ranked": true,
       "featured": false
@@ -3229,7 +3204,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 23,
+      "participants": 25,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3242,7 +3217,7 @@
       "previous_edition_submissions": null,
       "host": "AmalgamAsh , squidgemonster , GeekGoneGrawshak , MULE , myDadisDracula",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -3259,7 +3234,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 5,
+      "participants": 8,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3272,7 +3247,7 @@
       "previous_edition_submissions": null,
       "host": "r7lrod",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -3288,7 +3263,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 14,
+      "participants": 16,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3301,39 +3276,10 @@
       "previous_edition_submissions": null,
       "host": "Alan Robinson, Developer",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "Construct French Game Jam 14(#CFGJ14)",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/cfgj14",
-      "starts_at": "2026-07-02T03:00:00+08:00",
-      "ends_at": "2026-09-01T03:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 8,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "construct-french",
-      "previous_edition_submissions": null,
-      "host": "Squale",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date"
       ],
       "ranked": true,
       "featured": false
@@ -3347,7 +3293,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 21,
+      "participants": 23,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3360,7 +3306,7 @@
       "previous_edition_submissions": null,
       "host": "Redot Engine",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -3377,7 +3323,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 82,
+      "participants": 84,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3390,7 +3336,7 @@
       "previous_edition_submissions": null,
       "host": "Sonic the Hedgehog",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -3409,7 +3355,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 9,
+      "participants": 12,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3422,9 +3368,10 @@
       "previous_edition_submissions": null,
       "host": "Diguifi Studios",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date"
+        "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/starting-this-week"
       ],
       "ranked": true,
       "featured": false
@@ -3438,7 +3385,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 1,
+      "participants": 5,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3451,7 +3398,7 @@
       "previous_edition_submissions": null,
       "host": "Skillva",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -3467,7 +3414,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 49,
+      "participants": 63,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3480,9 +3427,10 @@
       "previous_edition_submissions": null,
       "host": "Vatredox",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
+        "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
       ],
@@ -3498,7 +3446,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 74,
+      "participants": 80,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3511,7 +3459,7 @@
       "previous_edition_submissions": null,
       "host": "UW Game Dev Club",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
@@ -3543,7 +3491,7 @@
       "previous_edition_submissions": null,
       "host": "Holmesglen Game Development , rvanheeswyk",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/starting-this-week"
@@ -3573,7 +3521,7 @@
       "previous_edition_submissions": null,
       "host": "Mig Creates Games",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date"
       ],
@@ -3589,7 +3537,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 97,
+      "participants": 122,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3602,12 +3550,70 @@
       "previous_edition_submissions": null,
       "host": "ZahranW",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming/sort-date",
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "SGH Kesäjami 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/sgh-kesajami-2026",
+      "starts_at": "2026-07-03T14:00:00+08:00",
+      "ends_at": "2026-07-06T14:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 6,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "sgh-kes-jami",
+      "previous_edition_submissions": null,
+      "host": "SuomiGameHUB",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Master Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/master-jam-1",
+      "starts_at": "2026-07-03T16:00:00+08:00",
+      "ends_at": "2026-07-20T16:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 6,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "master",
+      "previous_edition_submissions": null,
+      "host": "poltergasm",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming/sort-date"
       ],
       "ranked": true,
       "featured": false
@@ -3621,7 +3627,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 9,
+      "participants": 10,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3632,11 +3638,11 @@
       ],
       "series_key": "trijam-the-hour",
       "previous_edition_submissions": null,
-      "host": "Trijam , KrisKuroni",
+      "host": "Trijam , nerdPoint , KrisKuroni",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/starting-this-week"
+        "https://itch.io/jams/upcoming/sort-date"
       ],
       "ranked": true,
       "featured": false
@@ -3650,7 +3656,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 11,
+      "participants": 12,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3663,7 +3669,7 @@
       "previous_edition_submissions": null,
       "host": "Level 1 Game Jam",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week"
       ],
@@ -3679,7 +3685,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 18,
+      "participants": 17,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3692,7 +3698,7 @@
       "previous_edition_submissions": null,
       "host": "michyo",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week"
       ],
@@ -3708,7 +3714,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 127,
+      "participants": 130,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3721,7 +3727,7 @@
       "previous_edition_submissions": null,
       "host": "Brett Chalupa",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
@@ -3739,7 +3745,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 55,
+      "participants": 61,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3752,7 +3758,7 @@
       "previous_edition_submissions": null,
       "host": "Beregon , BroodyGaming , Daybloom Project",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
@@ -3770,7 +3776,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 67,
+      "participants": 71,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3783,7 +3789,7 @@
       "previous_edition_submissions": null,
       "host": "Beregon , BroodyGaming",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
@@ -3801,7 +3807,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 20,
+      "participants": 27,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3814,7 +3820,7 @@
       "previous_edition_submissions": null,
       "host": "lastframe",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week"
       ],
@@ -3830,7 +3836,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 212,
+      "participants": 224,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3843,7 +3849,7 @@
       "previous_edition_submissions": null,
       "host": "GAMESEED",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -3859,7 +3865,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 38,
+      "participants": 40,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3872,7 +3878,7 @@
       "previous_edition_submissions": null,
       "host": "andsfw",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
@@ -3889,7 +3895,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 602,
+      "participants": 603,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3897,13 +3903,13 @@
       "qualification_status": "unknown",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "602 participants joined before submissions were available."
+        "603 participants joined before submissions were available."
       ],
       "series_key": "pixel-forge-haunted-edition-in-prizes",
       "previous_edition_submissions": null,
       "host": "PIXEL FORGE",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -3919,7 +3925,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 54,
+      "participants": 69,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3932,7 +3938,7 @@
       "previous_edition_submissions": null,
       "host": "Kinayla",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-week",
@@ -3963,7 +3969,7 @@
       "previous_edition_submissions": null,
       "host": "Portland Horton",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
@@ -3980,7 +3986,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 37,
+      "participants": 43,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -3993,7 +3999,7 @@
       "previous_edition_submissions": null,
       "host": "FBDW , asterisk_man , CardboardEmpress",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
@@ -4010,7 +4016,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 50,
+      "participants": 51,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4023,10 +4029,39 @@
       "previous_edition_submissions": null,
       "host": "KaleOverlord",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Dreamcore Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/dreamcore-jam-2026",
+      "starts_at": "2026-07-06T18:00:00+08:00",
+      "ends_at": "2026-07-27T18:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 14,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "dreamcore",
+      "previous_edition_submissions": null,
+      "host": "LAGOLEND",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-week"
       ],
       "ranked": true,
       "featured": false
@@ -4053,9 +4088,10 @@
       "previous_edition_submissions": null,
       "host": "Toasty",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": true,
@@ -4070,7 +4106,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 227,
+      "participants": 246,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4083,9 +4119,10 @@
       "previous_edition_submissions": null,
       "host": "Ray",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
+        "https://itch.io/jams/starting-this-week",
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": true,
@@ -4100,7 +4137,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 183,
+      "participants": 186,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4113,7 +4150,7 @@
       "previous_edition_submissions": null,
       "host": "MintMood",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -4129,7 +4166,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 91,
+      "participants": 96,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4142,7 +4179,7 @@
       "previous_edition_submissions": null,
       "host": "The Woodlanders",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4159,7 +4196,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 71,
+      "participants": 72,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4172,7 +4209,7 @@
       "previous_edition_submissions": null,
       "host": "INTJT2",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -4188,7 +4225,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 295,
+      "participants": 303,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4201,7 +4238,7 @@
       "previous_edition_submissions": null,
       "host": "Synty",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4218,7 +4255,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 35,
+      "participants": 38,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4231,11 +4268,40 @@
       "previous_edition_submissions": null,
       "host": "Portland Indie Game Squad",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Knight Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/knight-jam-game-jam",
+      "starts_at": "2026-07-09T01:00:24+08:00",
+      "ends_at": "2026-07-19T01:00:24+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 28,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "knight",
+      "previous_edition_submissions": null,
+      "host": "ctrl-F-orge",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/starting-this-month"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -4260,7 +4326,7 @@
       "previous_edition_submissions": null,
       "host": "TERNOX",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4277,7 +4343,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 43,
+      "participants": 53,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4290,7 +4356,7 @@
       "previous_edition_submissions": null,
       "host": "Playgama",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-month"
       ],
@@ -4306,7 +4372,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 185,
+      "participants": 187,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4319,7 +4385,7 @@
       "previous_edition_submissions": null,
       "host": "SUDO",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4336,7 +4402,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 162,
+      "participants": 168,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4349,7 +4415,7 @@
       "previous_edition_submissions": null,
       "host": "Solo Development , Practical NPC , drahmen , symbol24",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4366,7 +4432,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 149,
+      "participants": 161,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4379,7 +4445,7 @@
       "previous_edition_submissions": null,
       "host": "Godot Wild Jam",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4396,7 +4462,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 72,
+      "participants": 76,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4409,7 +4475,7 @@
       "previous_edition_submissions": null,
       "host": "Ned Reid",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4426,7 +4492,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 200,
+      "participants": 206,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4439,7 +4505,7 @@
       "previous_edition_submissions": null,
       "host": "Stella @ MakeVisualNovels",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4469,7 +4535,7 @@
       "previous_edition_submissions": null,
       "host": "Spelkollektivet",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-month"
       ],
@@ -4498,7 +4564,7 @@
       "previous_edition_submissions": null,
       "host": "Nitori , Kevin Minh , Aeon , noeticnightjar , SolarisSect , WelpThatWorked , Seniro Rainbow , Jacoder23 , Megapig9001 , GreatHornedOwl , Yal",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -4514,7 +4580,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 57,
+      "participants": 58,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4527,7 +4593,7 @@
       "previous_edition_submissions": null,
       "host": "Figerox Studios",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4544,7 +4610,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 52,
+      "participants": 56,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4557,9 +4623,8 @@
       "previous_edition_submissions": null,
       "host": "Cupertino Game Dev Club",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
       ],
       "ranked": true,
@@ -4574,7 +4639,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 137,
+      "participants": 139,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4587,7 +4652,7 @@
       "previous_edition_submissions": null,
       "host": "Stop Killing Games Community , DVH , PotatoGameDev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4604,7 +4669,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 295,
+      "participants": 302,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4617,7 +4682,7 @@
       "previous_edition_submissions": null,
       "host": "Queble , Gwizz1027",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming",
         "https://itch.io/jams/starting-this-month"
@@ -4634,7 +4699,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 182,
+      "participants": 183,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4647,41 +4712,11 @@
       "previous_edition_submissions": null,
       "host": "Beregon , raeleus , BroodyGaming",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
       "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "TasJam 2026: Winter Edition",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/tasjam2026-winter",
-      "starts_at": "2026-07-24T16:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 21,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "tasjam-winter-edition",
-      "previous_edition_submissions": null,
-      "host": "Tas Game Makers",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming/sort-date",
-        "https://itch.io/jams/starting-this-week"
-      ],
-      "ranked": false,
       "featured": false
     },
     {
@@ -4706,7 +4741,7 @@
       "previous_edition_submissions": null,
       "host": "Docx",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/starting-this-month"
       ],
@@ -4722,7 +4757,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 127,
+      "participants": 132,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4735,7 +4770,7 @@
       "previous_edition_submissions": null,
       "host": "Awiola",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4751,7 +4786,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 62,
+      "participants": 64,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4764,36 +4799,7 @@
       "previous_edition_submissions": null,
       "host": "tokentakenuser , Jattenalle , minipaperplanes",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming"
-      ],
-      "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "Gender Bender Jam 2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/gender-bender-jam-2026",
-      "starts_at": "2026-07-31T22:00:00+08:00",
-      "ends_at": "2026-08-30T22:00:00+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 50,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "gender-bender",
-      "previous_edition_submissions": null,
-      "host": "tenshideve",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4809,7 +4815,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 153,
+      "participants": 156,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4822,7 +4828,7 @@
       "previous_edition_submissions": null,
       "host": "Macrow",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4851,7 +4857,36 @@
       "previous_edition_submissions": null,
       "host": "SNES-Testberichte , Kannagichan , Svambo",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "LOWREZJAM 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/lowrezjam-2026",
+      "starts_at": "2026-08-01T20:00:00+08:00",
+      "ends_at": "2026-08-15T20:00:00+08:00",
+      "submission_deadline": null,
+      "status": "upcoming",
+      "tags": [],
+      "participants": 56,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "lowrezjam",
+      "previous_edition_submissions": null,
+      "host": "JackOatley , Gurpreet Singh Matharoo",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4867,7 +4902,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 71,
+      "participants": 72,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4880,7 +4915,7 @@
       "previous_edition_submissions": null,
       "host": "MizuMiaw",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4909,7 +4944,7 @@
       "previous_edition_submissions": null,
       "host": "dreamup , Lady Entropy",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4938,7 +4973,7 @@
       "previous_edition_submissions": null,
       "host": "aine , CuteShadow , Stella @ MakeVisualNovels",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -4954,7 +4989,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 86,
+      "participants": 87,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4967,7 +5002,7 @@
       "previous_edition_submissions": null,
       "host": "Danar Dev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -4983,7 +5018,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 159,
+      "participants": 158,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -4996,7 +5031,7 @@
       "previous_edition_submissions": null,
       "host": "Froggit_Studios",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -5012,7 +5047,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 70,
+      "participants": 72,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5025,7 +5060,7 @@
       "previous_edition_submissions": null,
       "host": "ARD Game Jam",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -5041,7 +5076,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 116,
+      "participants": 117,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5054,7 +5089,7 @@
       "previous_edition_submissions": null,
       "host": "Hatoge , cdrch , sleepyboydev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -5083,7 +5118,7 @@
       "previous_edition_submissions": null,
       "host": "indiequesting , hythrain , Altabestudio , JanJMueller",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -5112,7 +5147,7 @@
       "previous_edition_submissions": null,
       "host": "Murushii , BluWraith , Neuroticfly Games , SolitaryStudios",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -5141,7 +5176,7 @@
       "previous_edition_submissions": null,
       "host": "canislatransed",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -5157,7 +5192,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 59,
+      "participants": 60,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5170,40 +5205,11 @@
       "previous_edition_submissions": null,
       "host": "Stella @ MakeVisualNovels",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
       "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "Torture Jam",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/torture-jam",
-      "starts_at": "2026-09-01T12:00:01+08:00",
-      "ends_at": "2026-10-12T12:00:01+08:00",
-      "submission_deadline": null,
-      "status": "upcoming",
-      "tags": [],
-      "participants": 52,
-      "submitted_games_count": null,
-      "submission_count_source": null,
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "unknown",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions."
-      ],
-      "series_key": "torture",
-      "previous_edition_submissions": null,
-      "host": "Fisher",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/upcoming"
-      ],
-      "ranked": false,
       "featured": false
     },
     {
@@ -5215,7 +5221,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 287,
+      "participants": 295,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5228,7 +5234,7 @@
       "previous_edition_submissions": null,
       "host": "Pyro_Pyro , Nikku4211 , skylyrac , GValiente , kva64 , exelotl , avivace",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -5257,7 +5263,7 @@
       "previous_edition_submissions": null,
       "host": "Bezi",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -5273,7 +5279,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 98,
+      "participants": 99,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5286,7 +5292,7 @@
       "previous_edition_submissions": null,
       "host": "0racle_2022 , Natasha White",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -5302,7 +5308,7 @@
       "submission_deadline": null,
       "status": "upcoming",
       "tags": [],
-      "participants": 53,
+      "participants": 57,
       "submitted_games_count": null,
       "submission_count_source": null,
       "online_status": "confirmed_online",
@@ -5315,9 +5321,38 @@
       "previous_edition_submissions": null,
       "host": "Macrow",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "Reciprocity Game Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/reciprocity-game-jam",
+      "starts_at": "2026-11-08T05:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 79,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "reciprocity",
+      "previous_edition_submissions": null,
+      "host": "EthMiC , yohanneskassa , Psyco6 , eyosias , Fanuel Anteneh",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
       ],
       "ranked": true,
       "featured": false
@@ -5344,9 +5379,38 @@
       "previous_edition_submissions": null,
       "host": "Beregon , BroodyGaming",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "The Zombies Jam 2023 - March 31st 2030",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/the-zombies-jam-100",
+      "starts_at": "2030-03-31T02:30:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 25,
+      "submitted_games_count": null,
+      "submission_count_source": null,
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "unknown",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions."
+      ],
+      "series_key": "the-zombies-march",
+      "previous_edition_submissions": null,
+      "host": "Soarum10",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": true,
       "featured": false
@@ -5373,7 +5437,7 @@
       "previous_edition_submissions": null,
       "host": "underscore_grammer",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/upcoming"
       ],
@@ -5389,22 +5453,22 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 145,
-      "submitted_games_count": 79,
+      "participants": 147,
+      "submitted_games_count": 81,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "79 submitted games observed from https://itch.io/jams/in-progress.",
+        "81 submitted games observed from https://itch.io/jams/in-progress.",
         "Submitted game count is below the 100-game threshold."
       ],
       "series_key": "interactive-fiction-showcase",
       "previous_edition_submissions": null,
       "host": "manonamora",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5421,7 +5485,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 138,
+      "participants": 139,
       "submitted_games_count": 68,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
@@ -5436,7 +5500,7 @@
       "previous_edition_submissions": null,
       "host": "Infiland",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5468,43 +5532,11 @@
       "previous_edition_submissions": null,
       "host": "Stella @ MakeVisualNovels",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "Platformer Jam #2",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/platformer-jam-2",
-      "starts_at": "2026-06-29T18:21:30+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 414,
-      "submitted_games_count": 62,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "62 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "platformer",
-      "previous_edition_submissions": null,
-      "host": "ElectricRam",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": true,
       "featured": false
     },
     {
@@ -5517,21 +5549,21 @@
       "status": "active",
       "tags": [],
       "participants": 167,
-      "submitted_games_count": 44,
+      "submitted_games_count": 47,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "44 submitted games observed from https://itch.io/jams/in-progress.",
+        "47 submitted games observed from https://itch.io/jams/in-progress.",
         "Submitted game count is below the 100-game threshold."
       ],
       "series_key": "neo-twiny",
       "previous_edition_submissions": null,
       "host": "manonamora , Autumn Chen , Lapin Lunaire Games",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5563,7 +5595,39 @@
       "previous_edition_submissions": null,
       "host": "DarkChibiShadow , HemiDemi , Platinum Soul Press",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress",
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Otome Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/otome-jam-2026",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 443,
+      "submitted_games_count": 41,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "41 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "otome",
+      "previous_edition_submissions": null,
+      "host": "Akua , Crystal Game Works , baguetti ✦",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5595,8 +5659,40 @@
       "previous_edition_submissions": null,
       "host": "Asaltadoras del Rol",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Josei Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/josei-jam-2026",
+      "starts_at": "2026-07-01T18:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 301,
+      "submitted_games_count": 40,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "40 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "josei",
+      "previous_edition_submissions": null,
+      "host": "Akua , Crystal Game Works , baguetti ✦",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
@@ -5626,72 +5722,8 @@
       "previous_edition_submissions": null,
       "host": "Soryn",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "Josei Jam 2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/josei-jam-2026",
-      "starts_at": "2026-07-01T18:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 299,
-      "submitted_games_count": 34,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "34 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "josei",
-      "previous_edition_submissions": null,
-      "host": "Akua , Crystal Game Works , baguetti ✦",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "Otome Jam 2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/otome-jam-2026",
-      "starts_at": "2026-07-01T18:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 441,
-      "submitted_games_count": 34,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "34 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "otome",
-      "previous_edition_submissions": null,
-      "host": "Akua , Crystal Game Works , baguetti ✦",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
@@ -5721,7 +5753,7 @@
       "previous_edition_submissions": null,
       "host": "Thunder Perfect Witchcraft",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -5752,7 +5784,7 @@
       "previous_edition_submissions": null,
       "host": "caede styles",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5784,7 +5816,7 @@
       "previous_edition_submissions": null,
       "host": "SGN",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -5793,35 +5825,67 @@
       "featured": false
     },
     {
-      "title": "Mixed Media Jam",
+      "title": "SOUPJAM2026",
       "source": "itch.io",
-      "url": "https://itch.io/jam/mixed-media-jam",
-      "starts_at": "2026-06-29T20:00:00+08:00",
+      "url": "https://itch.io/jam/soupjam2026",
+      "starts_at": "2026-07-01T13:00:00+08:00",
       "ends_at": null,
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 162,
-      "submitted_games_count": 24,
+      "participants": 263,
+      "submitted_games_count": 25,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "24 submitted games observed from https://itch.io/jams/in-progress.",
+        "25 submitted games observed from https://itch.io/jams/in-progress.",
         "Submitted game count is below the 100-game threshold."
       ],
-      "series_key": "mixed-media",
+      "series_key": "soupjam2026",
       "previous_edition_submissions": null,
-      "host": "Ikoms",
+      "host": "Kite Line , Figglewatts , KIRA",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Beginner's Jam Summer_2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/beginners-jam-smmr-2026",
+      "starts_at": "2026-07-05T19:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 113,
+      "submitted_games_count": 25,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "25 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "beginner-s-summer-2026",
+      "previous_edition_submissions": null,
+      "host": "taymosh",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress",
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -5833,7 +5897,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 44,
+      "participants": 43,
       "submitted_games_count": 24,
       "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
       "online_status": "confirmed_online",
@@ -5848,7 +5912,7 @@
       "previous_edition_submissions": null,
       "host": "Mouse Potato Does Stuff",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -5879,43 +5943,11 @@
       "previous_edition_submissions": null,
       "host": "InfiniteDev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "SOUPJAM2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/soupjam2026",
-      "starts_at": "2026-07-01T13:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 262,
-      "submitted_games_count": 23,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "23 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "soupjam2026",
-      "previous_edition_submissions": null,
-      "host": "Kite Line , Figglewatts , KIRA",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": false,
       "featured": false
     },
     {
@@ -5942,7 +5974,7 @@
       "previous_edition_submissions": null,
       "host": "immersive insiders",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -5973,7 +6005,7 @@
       "previous_edition_submissions": null,
       "host": "PIZZAPRANKS",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6004,71 +6036,8 @@
       "previous_edition_submissions": null,
       "host": "SuperLeaf 1995",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "SevillaJam 6",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/sevillajam-6",
-      "starts_at": "2026-06-28T23:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 49,
-      "submitted_games_count": 20,
-      "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "20 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "sevillajam",
-      "previous_edition_submissions": null,
-      "host": "SevillaJam",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "1-BIT JAM 12",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/1-bit-jam-12",
-      "starts_at": "2026-06-30T01:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 143,
-      "submitted_games_count": 20,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "20 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "bit",
-      "previous_edition_submissions": null,
-      "host": "MYline media 👤",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": true,
@@ -6098,7 +6067,7 @@
       "previous_edition_submissions": null,
       "host": "Dragulair",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6129,7 +6098,7 @@
       "previous_edition_submissions": null,
       "host": "GameLabAalborg",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6137,34 +6106,34 @@
       "featured": false
     },
     {
-      "title": "One Game a Month #60",
+      "title": "Jester Jam: One Game a Month",
       "source": "itch.io",
-      "url": "https://itch.io/jam/one-game-a-month-60",
-      "starts_at": "2026-06-29T23:00:00+08:00",
+      "url": "https://itch.io/jam/jester-jam-one-game-a-month",
+      "starts_at": "2026-06-30T17:59:59+08:00",
       "ends_at": null,
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 39,
-      "submitted_games_count": 18,
+      "participants": 57,
+      "submitted_games_count": 17,
       "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "18 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
+        "17 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
         "Submitted game count is below the 100-game threshold."
       ],
-      "series_key": "one-a-month",
+      "series_key": "jester-one-a-month",
       "previous_edition_submissions": null,
-      "host": "sneeky_09",
+      "host": "Jestercraft",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
-      "ranked": false,
+      "ranked": true,
       "featured": false
     },
     {
@@ -6191,12 +6160,45 @@
       "previous_edition_submissions": null,
       "host": "One Joyful Day",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": true,
       "featured": false
+    },
+    {
+      "title": "TOXIC YURI VN JAM 2",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
+      "starts_at": "2026-07-14T06:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 2073,
+      "submitted_games_count": 17,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "17 submitted games observed from https://itch.io/jams/in-progress.",
+        "2073 participants joined before submissions were available.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "toxic-yuri-vn",
+      "previous_edition_submissions": null,
+      "host": "nadia nova , deaddeaddeath , KillJill , thursdayrain , Kyou System",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress",
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": false,
+      "featured": true
     },
     {
       "title": "Science Fantasy Jam",
@@ -6222,109 +6224,13 @@
       "previous_edition_submissions": null,
       "host": "Platinum Soul Press , DarkChibiShadow",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
       "featured": false
-    },
-    {
-      "title": "Beginner's Jam Summer_2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/beginners-jam-smmr-2026",
-      "starts_at": "2026-06-30T09:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 112,
-      "submitted_games_count": 16,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "16 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "beginner-s-summer-2026",
-      "previous_edition_submissions": null,
-      "host": "taymosh",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "Jester Jam: One Game a Month",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/jester-jam-one-game-a-month",
-      "starts_at": "2026-06-30T17:59:59+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 57,
-      "submitted_games_count": 16,
-      "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "16 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "jester-one-a-month",
-      "previous_edition_submissions": null,
-      "host": "Jestercraft",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": true,
-      "featured": false
-    },
-    {
-      "title": "TOXIC YURI VN JAM 2",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
-      "starts_at": "2026-07-14T06:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 2067,
-      "submitted_games_count": 16,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "16 submitted games observed from https://itch.io/jams/in-progress.",
-        "2067 participants joined before submissions were available.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "toxic-yuri-vn",
-      "previous_edition_submissions": null,
-      "host": "nadia nova , deaddeaddeath , KillJill , thursdayrain , Kyou System",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress",
-        "https://itch.io/jams/in-progress/sort-submissions"
-      ],
-      "ranked": false,
-      "featured": true
     },
     {
       "title": "¡Yo apoyo a mis compis!",
@@ -6336,21 +6242,21 @@
       "status": "active",
       "tags": [],
       "participants": 18,
-      "submitted_games_count": 15,
+      "submitted_games_count": 16,
       "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "15 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
+        "16 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
         "Submitted game count is below the 100-game threshold."
       ],
       "series_key": "yo-apoyo-a-mis-compis",
       "previous_edition_submissions": null,
       "host": "Asaltadoras del Rol",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6366,7 +6272,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 212,
+      "participants": 214,
       "submitted_games_count": 15,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
@@ -6381,7 +6287,7 @@
       "previous_edition_submissions": null,
       "host": "MCL Software",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress",
         "https://itch.io/jams/in-progress/sort-submissions"
@@ -6413,7 +6319,7 @@
       "previous_edition_submissions": null,
       "host": "JimmysDev",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6444,7 +6350,7 @@
       "previous_edition_submissions": null,
       "host": "RGC Exists",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6452,15 +6358,15 @@
       "featured": false
     },
     {
-      "title": "SummerJam 2026",
+      "title": "CGDC Speedgame Classic 20th Anniversary",
       "source": "itch.io",
-      "url": "https://itch.io/jam/summerjam-26",
-      "starts_at": "2026-06-28T18:10:00+08:00",
+      "url": "https://itch.io/jam/cgdc-speedgame-classic-2026",
+      "starts_at": "2026-06-30T11:59:00+08:00",
       "ends_at": null,
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 16,
+      "participants": 36,
       "submitted_games_count": 13,
       "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
       "online_status": "confirmed_online",
@@ -6471,11 +6377,42 @@
         "13 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
         "Submitted game count is below the 100-game threshold."
       ],
-      "series_key": "summerjam",
+      "series_key": "cgdc-speedgame-classic-anniversary",
       "previous_edition_submissions": null,
-      "host": "HKUDotToplulugu",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "host": "The Christian Game Developers Conference",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": true,
+      "featured": false
+    },
+    {
+      "title": "\"Make 5\" TTRPG Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/make-5-ttrpg-jam",
+      "starts_at": "2026-07-06T11:59:59+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 56,
+      "submitted_games_count": 12,
+      "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "12 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "make-ttrpg",
+      "previous_edition_submissions": null,
+      "host": "Maggie French",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6506,11 +6443,43 @@
       "previous_edition_submissions": null,
       "host": "Plus One Exp , Kegan (@Keganexe) , Aaron King",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
-        "https://itch.io/jams/in-progress"
+        "https://itch.io/jams/in-progress",
+        "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Pixelverse Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/pixelverse-jam-2026",
+      "starts_at": "2027-01-01T13:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 78,
+      "submitted_games_count": 12,
+      "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "12 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "pixelverse",
+      "previous_edition_submissions": null,
+      "host": "DisasterRoyal3773",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -6537,7 +6506,38 @@
       "previous_edition_submissions": null,
       "host": "Borza , Soph Podestá , Luvi , Rustimak",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress/sort-submissions"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "10 & 20 Minute TTRPGs Mega Jam",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/10-minute-ttrpgs-mega-jam",
+      "starts_at": "2083-06-28T06:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 42,
+      "submitted_games_count": 12,
+      "submission_count_source": "https://itch.io/jams/in-progress/sort-submissions",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "12 submitted games observed from https://itch.io/jams/in-progress/sort-submissions.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "and-minute-ttrpgs-mega",
+      "previous_edition_submissions": null,
+      "host": "cutestpatoot games",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
@@ -6553,7 +6553,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 105,
+      "participants": 107,
       "submitted_games_count": 11,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
@@ -6568,7 +6568,7 @@
       "previous_edition_submissions": null,
       "host": "PerseusKyogre09 , Geekroom SRMIST , Googoochadwick , Shrealix",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6599,11 +6599,42 @@
       "previous_edition_submissions": null,
       "host": "ACADEVI",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress/sort-submissions"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Improve My Game Jam 45",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/improve-my-game-jam-45",
+      "starts_at": "2026-07-04T12:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 78,
+      "submitted_games_count": 10,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "10 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "improve-my",
+      "previous_edition_submissions": null,
+      "host": "anomrac21",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -6616,21 +6647,21 @@
       "status": "active",
       "tags": [],
       "participants": 171,
-      "submitted_games_count": 7,
+      "submitted_games_count": 8,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
       "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
       "qualification_status": "rejected",
       "qualification_reasons": [
         "Public itch.io jam page supports online submissions.",
-        "7 submitted games observed from https://itch.io/jams/in-progress.",
+        "8 submitted games observed from https://itch.io/jams/in-progress.",
         "Submitted game count is below the 100-game threshold."
       ],
       "series_key": "ost-album",
       "previous_edition_submissions": null,
       "host": "Grunt.",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6661,7 +6692,7 @@
       "previous_edition_submissions": null,
       "host": "Pablo Alegria",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6692,7 +6723,7 @@
       "previous_edition_submissions": null,
       "host": "Porksbun , Fisher",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6723,11 +6754,42 @@
       "previous_edition_submissions": null,
       "host": "earacorn",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
       "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "pali musi 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/tu",
+      "starts_at": "2026-07-01T05:00:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 84,
+      "submitted_games_count": 5,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "5 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "pali-musi",
+      "previous_edition_submissions": null,
+      "host": "Netal , Thel",
+      "discovered_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": true,
       "featured": false
     },
     {
@@ -6754,7 +6816,7 @@
       "previous_edition_submissions": null,
       "host": "4noki , pumpkin spike , Crystal Game Works",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6785,7 +6847,38 @@
       "previous_edition_submissions": null,
       "host": "Z Gosck",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
+      "observed_from": [
+        "https://itch.io/jams/in-progress"
+      ],
+      "ranked": false,
+      "featured": false
+    },
+    {
+      "title": "Queer Game Jam 2026",
+      "source": "itch.io",
+      "url": "https://itch.io/jam/queer-game-jam-2026",
+      "starts_at": "2026-07-16T11:59:00+08:00",
+      "ends_at": null,
+      "submission_deadline": null,
+      "status": "active",
+      "tags": [],
+      "participants": 80,
+      "submitted_games_count": 4,
+      "submission_count_source": "https://itch.io/jams/in-progress",
+      "online_status": "confirmed_online",
+      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
+      "qualification_status": "rejected",
+      "qualification_reasons": [
+        "Public itch.io jam page supports online submissions.",
+        "4 submitted games observed from https://itch.io/jams/in-progress.",
+        "Submitted game count is below the 100-game threshold."
+      ],
+      "series_key": "queer",
+      "previous_edition_submissions": null,
+      "host": "FalconWizard",
+      "discovered_at": "2026-06-30T09:04:13+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6816,42 +6909,11 @@
       "previous_edition_submissions": null,
       "host": "graculusdroog",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
       "ranked": false,
-      "featured": false
-    },
-    {
-      "title": "pali musi 2026",
-      "source": "itch.io",
-      "url": "https://itch.io/jam/tu",
-      "starts_at": "2026-07-01T05:00:00+08:00",
-      "ends_at": null,
-      "submission_deadline": null,
-      "status": "active",
-      "tags": [],
-      "participants": 85,
-      "submitted_games_count": 3,
-      "submission_count_source": "https://itch.io/jams/in-progress",
-      "online_status": "confirmed_online",
-      "online_evidence": "Public itch.io jam page uses itch.io's online jam submission system.",
-      "qualification_status": "rejected",
-      "qualification_reasons": [
-        "Public itch.io jam page supports online submissions.",
-        "3 submitted games observed from https://itch.io/jams/in-progress.",
-        "Submitted game count is below the 100-game threshold."
-      ],
-      "series_key": "pali-musi",
-      "previous_edition_submissions": null,
-      "host": "Netal , Thel",
-      "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
-      "observed_from": [
-        "https://itch.io/jams/in-progress"
-      ],
-      "ranked": true,
       "featured": false
     },
     {
@@ -6878,7 +6940,7 @@
       "previous_edition_submissions": null,
       "host": "Raccoon Formality",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
@@ -6894,7 +6956,7 @@
       "submission_deadline": null,
       "status": "active",
       "tags": [],
-      "participants": 341,
+      "participants": 339,
       "submitted_games_count": 2,
       "submission_count_source": "https://itch.io/jams/in-progress",
       "online_status": "confirmed_online",
@@ -6909,7 +6971,7 @@
       "previous_edition_submissions": null,
       "host": "dungeon",
       "discovered_at": "2026-06-29T17:24:40+08:00",
-      "last_seen_at": "2026-06-29T17:24:40+08:00",
+      "last_seen_at": "2026-06-30T09:04:13+08:00",
       "observed_from": [
         "https://itch.io/jams/in-progress"
       ],
