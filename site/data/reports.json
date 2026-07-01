@@ -1,6 +1,12 @@
 {
   "reports": [
     {
+      "date": "2026-07-01",
+      "title": "Daily Game Jam Research - 2026-07-01",
+      "summary": "- Run time: 2026-07-01T09:04:08+08:00 (Asia/Shanghai)\n- Previous state: 228 jams from 2026-06-30T09:04:13+08:00\n- Current state: 236 jams\n- New jams discovered: 8\n- Existing jams with material changes: 134\n- Fixed-source failures: 0\n- Confi",
+      "path": "../reports/game-jam/2026-07-01.md"
+    },
+    {
       "date": "2026-06-30",
       "title": "Daily Game Jam Research - 2026-06-30",
       "summary": "- Run time: 2026-06-30T09:04:13+08:00 (Asia/Shanghai)\n- Previous state: 226 jams from 2026-06-29T17:24:40+08:00\n- Current state: 228 jams\n- New jams discovered: 15\n- Existing jams with material changes: 109\n- Fixed-source failures: 0\n- Conf",
